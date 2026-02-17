@@ -1,0 +1,15 @@
+{
+  "language": "zh-CN",
+  "proxy": {
+    "enabled": false,
+    "http": "",
+    "https": ""
+  },
+  "compliance": {
+    "accepted": false,
+    "acceptedAt": "",
+    "consentVersion": "2026-02-17"
+  },
+  "installedPolicy": "skip",
+  "failurePolicy": "continue"
+}

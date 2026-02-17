@@ -1,0 +1,20 @@
+{
+  "consentVersion": "2026-02-17",
+  "sourcePolicy": "Install only from official package sources and vendor-approved links.",
+  "externalHostAllowlist": [
+    "buymeacoffee.com",
+    "www.buymeacoffee.com",
+    "afdian.com",
+    "www.afdian.com",
+    "blackmagicdesign.com",
+    "www.blackmagicdesign.com",
+    "freefilesync.org",
+    "www.freefilesync.org"
+  ],
+  "legalDocs": {
+    "terms": "docs/legal/TERMS_OF_USE.md",
+    "privacy": "docs/legal/PRIVACY_POLICY.md",
+    "thirdParty": "docs/legal/THIRD_PARTY_NOTICES.md",
+    "disclaimer": "docs/legal/DISCLAIMER.md"
+  }
+}

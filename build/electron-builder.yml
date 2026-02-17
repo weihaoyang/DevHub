@@ -1,0 +1,30 @@
+appId: com.devhub.installer
+productName: DevHub
+asar: true
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - config/**/*
+  - docs/**/*
+  - i18n/**/*
+  - package.json
+extraMetadata:
+  main: dist-electron/main.js
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+nsis:
+  artifactName: DevHub-Setup-x64.${ext}
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+portable:
+  artifactName: DevHub-Portable-x64.${ext}

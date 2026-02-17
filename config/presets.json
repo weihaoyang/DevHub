@@ -1,0 +1,852 @@
+[
+  {
+    "id": "dev-standard",
+    "name": {
+      "zh": "开发标准包",
+      "en": "Developer Standard"
+    },
+    "description": {
+      "zh": "???????????????????????????",
+      "en": "Includes core development, collaboration, and basic database tools for a quick workstation setup."
+    },
+    "packageIds": [
+      "google-chrome",
+      "vscode",
+      "git",
+      "node-lts",
+      "python311",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "sevenzip",
+      "everything",
+      "dbeaver-community"
+    ]
+  },
+  {
+    "id": "utility-essential",
+    "name": {
+      "zh": "必备小工具",
+      "en": "Essential Utilities"
+    },
+    "description": {
+      "zh": "????????????????????????",
+      "en": "Provides high-frequency daily tools for search, capture, preview, and clipboard workflows."
+    },
+    "packageIds": [
+      "everything",
+      "sevenzip",
+      "ditto",
+      "quicklook",
+      "sharex",
+      "sumatrapdf",
+      "autohotkey",
+      "powertoys"
+    ]
+  },
+  {
+    "id": "utility-system-maintenance",
+    "name": {
+      "zh": "系统维护必备",
+      "en": "System Maintenance"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "Targets disk checks, process diagnostics, cleanup/uninstall tasks, and boot media creation."
+    },
+    "packageIds": [
+      "everything",
+      "everything-cli",
+      "wiztree",
+      "geek-uninstaller",
+      "process-explorer",
+      "crystaldiskinfo",
+      "crystaldiskmark",
+      "bleachbit",
+      "ventoy",
+      "rufus"
+    ]
+  },
+  {
+    "id": "utility-open-source-toolkit",
+    "name": {
+      "zh": "???????",
+      "en": "Open-Source Productivity Suite"
+    },
+    "description": {
+      "zh": "?????????????????????????????",
+      "en": "Covers dedup cleanup, file sync, fast launch, enhanced search, and dual-pane file management."
+    },
+    "packageIds": [
+      "everything",
+      "czkawka",
+      "dupeguru",
+      "winmerge",
+      "flow-launcher",
+      "localsend",
+      "keepassxc",
+      "bulk-crap-uninstaller",
+      "double-commander",
+      "syncthing",
+      "synctrayzor",
+      "grepwin",
+      "rclone",
+      "ripgrep",
+      "fd-find",
+      "freefilesync"
+    ]
+  },
+  {
+    "id": "utility-file-dedup-sync",
+    "name": {
+      "zh": "???????",
+      "en": "File Cleanup & Dedup"
+    },
+    "description": {
+      "zh": "??????????????????????",
+      "en": "Focused on duplicate cleanup, diff comparison, and multi-device folder synchronization."
+    },
+    "packageIds": [
+      "everything",
+      "czkawka",
+      "dupeguru",
+      "winmerge",
+      "syncthing",
+      "synctrayzor",
+      "freefilesync"
+    ]
+  },
+  {
+    "id": "runtime-dll-repair",
+    "name": {
+      "zh": "运行库与DLL修复",
+      "en": "Runtime & DLL Repair"
+    },
+    "description": {
+      "zh": "??????????????????? DLL/???????",
+      "en": "Installs common runtimes and runs system repair commands for missing DLL/component issues."
+    },
+    "packageIds": [
+      "vcredist-2005-x64",
+      "vcredist-2005-x86",
+      "vcredist-2008-x64",
+      "vcredist-2008-x86",
+      "vcredist-2010-x64",
+      "vcredist-2010-x86",
+      "vcredist-2012-x64",
+      "vcredist-2012-x86",
+      "vcredist-2013-x64",
+      "vcredist-2013-x86",
+      "vcredist-2015plus-x64",
+      "vcredist-2015plus-x86",
+      "dotnet-desktop-8",
+      "dotnet-desktop-6",
+      "directx-enduser-runtime",
+      "xna-framework-redist",
+      "nvidia-physx",
+      "openal"
+    ]
+  },
+  {
+    "id": "creator-content",
+    "name": {
+      "zh": "内容创作者",
+      "en": "Content Creator"
+    },
+    "description": {
+      "zh": "????????????????????????",
+      "en": "Covers editing, design, live capture, and post-production workflows for content creators."
+    },
+    "packageIds": [
+      "adobe-creative-cloud",
+      "davinci-resolve",
+      "blender",
+      "obs-studio",
+      "gimp3",
+      "inkscape",
+      "handbrake",
+      "ffmpeg"
+    ]
+  },
+  {
+    "id": "creator-music",
+    "name": {
+      "zh": "音乐创作者",
+      "en": "Music Creator"
+    },
+    "description": {
+      "zh": "???????????????????????",
+      "en": "Provides music-production tools for recording, composing, mixing, and score authoring."
+    },
+    "packageIds": [
+      "audacity",
+      "reaper",
+      "lmms",
+      "cakewalk",
+      "musescore",
+      "ffmpeg"
+    ]
+  },
+  {
+    "id": "creator-all",
+    "name": {
+      "zh": "全能创作套件",
+      "en": "All-in Creator Suite"
+    },
+    "description": {
+      "zh": "??????????????????????",
+      "en": "Combines video-creation and music-production stacks for all-round creators."
+    },
+    "packageIds": [
+      "adobe-creative-cloud",
+      "davinci-resolve",
+      "blender",
+      "obs-studio",
+      "gimp3",
+      "inkscape",
+      "handbrake",
+      "ffmpeg",
+      "audacity",
+      "reaper",
+      "lmms",
+      "cakewalk",
+      "musescore"
+    ]
+  },
+  {
+    "id": "creator-video-short",
+    "name": {
+      "zh": "短视频剪辑",
+      "en": "Short Video Editing"
+    },
+    "description": {
+      "zh": "??????????????????????",
+      "en": "Optimized for short-video capture, editing, transcoding, and thumbnail preparation."
+    },
+    "packageIds": [
+      "adobe-creative-cloud",
+      "davinci-resolve",
+      "obs-studio",
+      "handbrake",
+      "ffmpeg",
+      "gimp3"
+    ]
+  },
+  {
+    "id": "creator-3d-modeling",
+    "name": {
+      "zh": "3D建模",
+      "en": "3D Modeling"
+    },
+    "description": {
+      "zh": "?? 3D ???????????????",
+      "en": "Designed for 3D modeling, texturing, and rendering asset production."
+    },
+    "packageIds": [
+      "blender",
+      "adobe-creative-cloud",
+      "gimp3",
+      "inkscape",
+      "ffmpeg"
+    ]
+  },
+  {
+    "id": "creator-live-stream",
+    "name": {
+      "zh": "直播推流",
+      "en": "Live Streaming"
+    },
+    "description": {
+      "zh": "???????????????????",
+      "en": "Built for live streaming, scene switching, and real-time audio processing."
+    },
+    "packageIds": [
+      "obs-studio",
+      "ffmpeg",
+      "audacity",
+      "reaper"
+    ]
+  },
+  {
+    "id": "creator-music-composing",
+    "name": {
+      "zh": "配乐制作",
+      "en": "Music Composing"
+    },
+    "description": {
+      "zh": "??????????????????",
+      "en": "Focused on composition, recording, notation, and audio export."
+    },
+    "packageIds": [
+      "audacity",
+      "reaper",
+      "lmms",
+      "cakewalk",
+      "musescore",
+      "ffmpeg"
+    ]
+  },
+  {
+    "id": "research-common",
+    "name": {
+      "zh": "科研通用基础包",
+      "en": "Research Core Pack"
+    },
+    "description": {
+      "zh": "???????LaTeX ????????????????",
+      "en": "Covers reference management, LaTeX writing, statistical analysis, and core visualization tools."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave"
+    ]
+  },
+  {
+    "id": "research-social-econ",
+    "name": {
+      "zh": "社科与经管研究",
+      "en": "Social Science & Economics"
+    },
+    "description": {
+      "zh": "??????????????????????????",
+      "en": "Designed for social science and economics with econometrics, qualitative coding, and writing workflows."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "jasp",
+      "jamovi",
+      "spss",
+      "stata",
+      "eviews",
+      "sas",
+      "mplus",
+      "smartpls",
+      "nvivo",
+      "maxqda",
+      "atlas-ti",
+      "endnote"
+    ]
+  },
+  {
+    "id": "research-life-medical",
+    "name": {
+      "zh": "生命科学与医学",
+      "en": "Life Science & Medical"
+    },
+    "description": {
+      "zh": "??????????????????????????",
+      "en": "Supports life-science and medical research with imaging, statistical modeling, and references."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "fiji-imagej",
+      "cytoscape",
+      "pymol-open-source",
+      "graphpad-prism",
+      "matlab",
+      "originpro",
+      "endnote"
+    ]
+  },
+  {
+    "id": "research-chem-materials",
+    "name": {
+      "zh": "化学与材料",
+      "en": "Chemistry & Materials"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "For chemistry and materials research with molecular modeling, multiphysics simulation, and plotting."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "chemoffice",
+      "gaussian",
+      "vmd",
+      "originpro",
+      "matlab",
+      "mathematica",
+      "comsol",
+      "ansys",
+      "paraview"
+    ]
+  },
+  {
+    "id": "research-physics-astro",
+    "name": {
+      "zh": "物理与天文",
+      "en": "Physics & Astronomy"
+    },
+    "description": {
+      "zh": "??????????????????????????",
+      "en": "Covers computation, simulation visualization, and plotting for physics and astronomy."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "matlab",
+      "mathematica",
+      "paraview",
+      "openfoam",
+      "gnuplot",
+      "scilab",
+      "stellarium"
+    ]
+  },
+  {
+    "id": "research-earth-gis",
+    "name": {
+      "zh": "地学与 GIS",
+      "en": "Earth Science & GIS"
+    },
+    "description": {
+      "zh": "?????? GIS ????????????????",
+      "en": "Targets earth science and GIS workflows for spatial analysis, mapping, and geodata processing."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "qgis",
+      "arcgis-pro",
+      "paraview"
+    ]
+  },
+  {
+    "id": "research-cs-ai",
+    "name": {
+      "zh": "计算机与 AI 科研",
+      "en": "CS & AI Research"
+    },
+    "description": {
+      "zh": "?????? AI ??????????????????",
+      "en": "For CS and AI research with coding experiments, data workflows, and paper production."
+    },
+    "packageIds": [
+      "google-chrome",
+      "vscode",
+      "git",
+      "python311",
+      "node-lts",
+      "julia",
+      "anaconda",
+      "zotero",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "dbeaver-community"
+    ]
+  },
+  {
+    "id": "research-electronics",
+    "name": {
+      "zh": "电子电气与控制",
+      "en": "Electronics & Control"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "Suited for electronics and control with circuit design, simulation, and experiment analysis."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "kicad",
+      "ltspice",
+      "labview",
+      "matlab",
+      "originpro"
+    ]
+  },
+  {
+    "id": "research-mechanical-cfd",
+    "name": {
+      "zh": "机械与 CFD 仿真",
+      "en": "Mechanical & CFD Simulation"
+    },
+    "description": {
+      "zh": "???????????????CFD ??????????",
+      "en": "Built for mechanical and CFD research with structural analysis, flow simulation, and post-processing."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphviz",
+      "octave",
+      "ansys",
+      "abaqus",
+      "comsol",
+      "openfoam",
+      "paraview",
+      "matlab",
+      "originpro"
+    ]
+  },
+  {
+    "id": "research-all-disciplines",
+    "name": {
+      "zh": "全学科科研全家桶",
+      "en": "All-Discipline Research Suite"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "Aggregates cross-discipline research software for lab-wide standardized environment setup."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "qgis",
+      "paraview",
+      "kicad",
+      "ltspice",
+      "graphviz",
+      "octave",
+      "jasp",
+      "jamovi",
+      "gephi",
+      "gnuplot",
+      "scilab",
+      "fiji-imagej",
+      "cytoscape",
+      "pymol-open-source",
+      "openfoam",
+      "matlab",
+      "mathematica",
+      "spss",
+      "stata",
+      "eviews",
+      "sas",
+      "endnote",
+      "originpro",
+      "graphpad-prism",
+      "nvivo",
+      "maxqda",
+      "atlas-ti",
+      "mplus",
+      "smartpls",
+      "comsol",
+      "ansys",
+      "abaqus",
+      "arcgis-pro",
+      "labview",
+      "chemoffice",
+      "gaussian",
+      "vmd",
+      "stellarium"
+    ]
+  },
+  {
+    "id": "research-clinical-medicine",
+    "name": {
+      "zh": "临床医学科研",
+      "en": "Clinical Medical Research"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "Covers clinical research workflows for statistics, charting, and academic writing."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "graphpad-prism",
+      "spss",
+      "endnote",
+      "fiji-imagej"
+    ]
+  },
+  {
+    "id": "research-pharmacy",
+    "name": {
+      "zh": "药学与药理研究",
+      "en": "Pharmacy & Pharmacology"
+    },
+    "description": {
+      "zh": "????????????????????????",
+      "en": "Targets pharmacy and pharmacology with chemical analysis, modeling, and result presentation."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "chemoffice",
+      "graphpad-prism",
+      "originpro",
+      "matlab",
+      "gaussian"
+    ]
+  },
+  {
+    "id": "research-psychology",
+    "name": {
+      "zh": "心理学与行为科学",
+      "en": "Psychology & Behavioral Science"
+    },
+    "description": {
+      "zh": "????????????????????????",
+      "en": "Supports psychology and behavioral studies with quantitative and qualitative analysis."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "spss",
+      "jasp",
+      "jamovi",
+      "mplus",
+      "nvivo",
+      "atlas-ti"
+    ]
+  },
+  {
+    "id": "research-finance-quant",
+    "name": {
+      "zh": "金融与计量经济",
+      "en": "Finance & Econometrics"
+    },
+    "description": {
+      "zh": "??????????????????????",
+      "en": "Covers finance/econometrics workflows including time-series modeling and quant analysis."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "stata",
+      "eviews",
+      "sas",
+      "matlab",
+      "anaconda",
+      "dbeaver-community"
+    ]
+  },
+  {
+    "id": "research-civil-geotech",
+    "name": {
+      "zh": "土木与岩土工程",
+      "en": "Civil & Geotechnical Engineering"
+    },
+    "description": {
+      "zh": "????????????????????????",
+      "en": "For civil and geotechnical research with structural simulation, geospatial analysis, and engineering computing."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "ansys",
+      "abaqus",
+      "comsol",
+      "matlab",
+      "arcgis-pro",
+      "qgis",
+      "paraview"
+    ]
+  },
+  {
+    "id": "research-aerospace",
+    "name": {
+      "zh": "航空航天科研",
+      "en": "Aerospace Research"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "For aerospace use cases with CFD, multiphysics analysis, and scientific visualization."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "ansys",
+      "comsol",
+      "openfoam",
+      "paraview",
+      "matlab",
+      "mathematica"
+    ]
+  },
+  {
+    "id": "research-humanities",
+    "name": {
+      "zh": "人文与传播研究",
+      "en": "Humanities & Communication Research"
+    },
+    "description": {
+      "zh": "?????????????????????????",
+      "en": "Designed for humanities and communication studies with references, qualitative coding, and writing."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "endnote",
+      "nvivo",
+      "maxqda",
+      "atlas-ti"
+    ]
+  },
+  {
+    "id": "research-bioinformatics",
+    "name": {
+      "zh": "生物信息与计算生物",
+      "en": "Bioinformatics & Computational Biology"
+    },
+    "description": {
+      "zh": "????????????????????????",
+      "en": "For bioinformatics workflows with omics analysis, network visualization, and reproducible computing."
+    },
+    "packageIds": [
+      "zotero",
+      "jabref",
+      "texstudio",
+      "miktex",
+      "pandoc",
+      "quarto",
+      "r-project",
+      "rstudio",
+      "julia",
+      "python311",
+      "anaconda",
+      "cytoscape",
+      "pymol-open-source",
+      "fiji-imagej",
+      "graphpad-prism"
+    ]
+  }
+]

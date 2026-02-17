@@ -1,0 +1,2001 @@
+[
+  {
+    "id": "google-chrome",
+    "name": {
+      "zh": "Google Chrome",
+      "en": "Google Chrome"
+    },
+    "category": "browser",
+    "wingetId": "Google.Chrome",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "?????????????? Web ?????",
+      "en": "Used for daily web browsing, account sign-in, and web app access."
+    }
+  },
+  {
+    "id": "mozilla-firefox",
+    "name": {
+      "zh": "Mozilla Firefox",
+      "en": "Mozilla Firefox"
+    },
+    "category": "browser",
+    "wingetId": "Mozilla.Firefox",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for privacy-focused browsing with cross-device bookmark sync."
+    }
+  },
+  {
+    "id": "vscode",
+    "name": {
+      "zh": "Visual Studio Code",
+      "en": "Visual Studio Code"
+    },
+    "category": "dev",
+    "wingetId": "Microsoft.VisualStudioCode",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for code editing, debugging, and extension-based development workflows."
+    }
+  },
+  {
+    "id": "git",
+    "name": {
+      "zh": "Git",
+      "en": "Git"
+    },
+    "category": "dev",
+    "wingetId": "Git.Git",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for version control, branching workflows, and code history management."
+    }
+  },
+  {
+    "id": "node-lts",
+    "name": {
+      "zh": "Node.js LTS",
+      "en": "Node.js LTS"
+    },
+    "category": "dev",
+    "wingetId": "OpenJS.NodeJS.LTS",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "?? JavaScript/TypeScript ??????????????",
+      "en": "Used to run, build, and script JavaScript/TypeScript projects with the LTS runtime."
+    }
+  },
+  {
+    "id": "python311",
+    "name": {
+      "zh": "Python 3.11",
+      "en": "Python 3.11"
+    },
+    "category": "dev",
+    "wingetId": "Python.Python.3.11",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for data processing, automation scripting, and scientific computing."
+    }
+  },
+  {
+    "id": "notepadpp",
+    "name": {
+      "zh": "Notepad++",
+      "en": "Notepad++"
+    },
+    "category": "dev",
+    "wingetId": "Notepad++.Notepad++",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for lightweight text editing, log inspection, and multi-language syntax highlighting."
+    }
+  },
+  {
+    "id": "powertoys",
+    "name": {
+      "zh": "PowerToys",
+      "en": "PowerToys"
+    },
+    "category": "dev",
+    "wingetId": "Microsoft.PowerToys",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used to enhance Windows productivity with window tools and utility modules."
+    }
+  },
+  {
+    "id": "vcredist-2005-x64",
+    "name": {
+      "zh": "VC++ 2005 x64",
+      "en": "VC++ 2005 x64"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2005.x64",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2005 X64 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2005 X64 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2005-x86",
+    "name": {
+      "zh": "VC++ 2005 x86",
+      "en": "VC++ 2005 x86"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2005.x86",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2005 X86 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2005 X86 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2008-x64",
+    "name": {
+      "zh": "VC++ 2008 x64",
+      "en": "VC++ 2008 x64"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2008.x64",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2008 X64 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2008 X64 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2008-x86",
+    "name": {
+      "zh": "VC++ 2008 x86",
+      "en": "VC++ 2008 x86"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2008.x86",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2008 X86 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2008 X86 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2010-x64",
+    "name": {
+      "zh": "VC++ 2010 x64",
+      "en": "VC++ 2010 x64"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2010.x64",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2010 X64 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2010 X64 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2010-x86",
+    "name": {
+      "zh": "VC++ 2010 x86",
+      "en": "VC++ 2010 x86"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2010.x86",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2010 X86 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2010 X86 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2012-x64",
+    "name": {
+      "zh": "VC++ 2012 x64",
+      "en": "VC++ 2012 x64"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2012.x64",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2012 X64 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2012 X64 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2012-x86",
+    "name": {
+      "zh": "VC++ 2012 x86",
+      "en": "VC++ 2012 x86"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2012.x86",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2012 X86 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2012 X86 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2013-x64",
+    "name": {
+      "zh": "VC++ 2013 x64",
+      "en": "VC++ 2013 x64"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2013.x64",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2013 X64 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2013 X64 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2013-x86",
+    "name": {
+      "zh": "VC++ 2013 x86",
+      "en": "VC++ 2013 x86"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2013.x86",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2013 X86 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2013 X86 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2015plus-x64",
+    "name": {
+      "zh": "VC++ 2015+ x64",
+      "en": "VC++ 2015+ x64"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2015+.x64",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2015-2022 X64 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2015-2022 X64 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "vcredist-2015plus-x86",
+    "name": {
+      "zh": "VC++ 2015+ x86",
+      "en": "VC++ 2015+ x86"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.VCRedist.2015+.x86",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? Visual C++ 2015-2022 X86 ?????????????",
+      "en": "Used to install Microsoft Visual C++ 2015-2022 X86 runtime components for app compatibility."
+    }
+  },
+  {
+    "id": "dotnet-desktop-8",
+    "name": {
+      "zh": ".NET Desktop Runtime 8",
+      "en": ".NET Desktop Runtime 8"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.DotNet.DesktopRuntime.8",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? .NET 8 Desktop Runtime?????????????",
+      "en": "Used to provide .NET 8 Desktop Runtime for modern desktop applications."
+    }
+  },
+  {
+    "id": "dotnet-desktop-6",
+    "name": {
+      "zh": ".NET Desktop Runtime 6",
+      "en": ".NET Desktop Runtime 6"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.DotNet.DesktopRuntime.6",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? .NET 6 Desktop Runtime?????? LTS 6 ????",
+      "en": "Used to provide .NET 6 Desktop Runtime for applications still targeting LTS 6."
+    }
+  },
+  {
+    "id": "directx-enduser-runtime",
+    "name": {
+      "zh": "DirectX End-User Runtime",
+      "en": "DirectX End-User Runtime"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.DirectX",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????? DirectX ????????????? DLL ???",
+      "en": "Used to add legacy DirectX components and reduce missing-DLL launch errors."
+    }
+  },
+  {
+    "id": "xna-framework-redist",
+    "name": {
+      "zh": "XNA Framework Redistributable",
+      "en": "XNA Framework Redistributable"
+    },
+    "category": "runtime",
+    "wingetId": "Microsoft.XNARedist",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????? XNA Framework ?????????",
+      "en": "Used for compatibility with legacy games and apps that depend on XNA Framework."
+    }
+  },
+  {
+    "id": "nvidia-physx",
+    "name": {
+      "zh": "NVIDIA PhysX",
+      "en": "NVIDIA PhysX"
+    },
+    "category": "runtime",
+    "wingetId": "Nvidia.PhysX",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? PhysX ??????????????????",
+      "en": "Used to install PhysX runtime components for better legacy game compatibility."
+    }
+  },
+  {
+    "id": "openal",
+    "name": {
+      "zh": "OpenAL",
+      "en": "OpenAL"
+    },
+    "category": "runtime",
+    "wingetId": "CreativeTechnology.OpenAL",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? OpenAL ????????????????????",
+      "en": "Used to install OpenAL audio libraries and fix missing-audio runtime issues."
+    }
+  },
+  {
+    "id": "wechat",
+    "name": {
+      "zh": "微信",
+      "en": "WeChat"
+    },
+    "category": "collab",
+    "wingetId": "Tencent.WeChat",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for personal messaging, file transfer, and cross-device communication."
+    }
+  },
+  {
+    "id": "wecom",
+    "name": {
+      "zh": "企业微信",
+      "en": "WeCom"
+    },
+    "category": "collab",
+    "wingetId": "Tencent.WeCom",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for enterprise messaging, approval notifications, and team collaboration."
+    }
+  },
+  {
+    "id": "dingtalk",
+    "name": {
+      "zh": "钉钉",
+      "en": "DingTalk"
+    },
+    "category": "collab",
+    "wingetId": "Alibaba.DingTalk",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for team communication, meetings, and organizational collaboration."
+    }
+  },
+  {
+    "id": "sevenzip",
+    "name": {
+      "zh": "7-Zip",
+      "en": "7-Zip"
+    },
+    "category": "utility",
+    "wingetId": "7zip.7zip",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used to extract and create archives with broad format support and high compression."
+    }
+  },
+  {
+    "id": "everything",
+    "name": {
+      "zh": "Everything",
+      "en": "Everything"
+    },
+    "category": "utility",
+    "wingetId": "voidtools.Everything",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used to index local filenames and locate files instantly."
+    }
+  },
+  {
+    "id": "ditto",
+    "name": {
+      "zh": "Ditto 剪贴板",
+      "en": "Ditto Clipboard"
+    },
+    "category": "utility",
+    "wingetId": "Ditto.Ditto",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used to extend clipboard history and quickly paste previously copied items."
+    }
+  },
+  {
+    "id": "quicklook",
+    "name": {
+      "zh": "QuickLook",
+      "en": "QuickLook"
+    },
+    "category": "utility",
+    "wingetId": "QL-Win.QuickLook",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used to preview images, documents, and media files instantly with the space key."
+    }
+  },
+  {
+    "id": "sharex",
+    "name": {
+      "zh": "ShareX",
+      "en": "ShareX"
+    },
+    "category": "utility",
+    "wingetId": "ShareX.ShareX",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for screenshots, screen recording, annotation, and quick sharing."
+    }
+  },
+  {
+    "id": "sumatrapdf",
+    "name": {
+      "zh": "SumatraPDF",
+      "en": "SumatraPDF"
+    },
+    "category": "utility",
+    "wingetId": "SumatraPDF.SumatraPDF",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????? PDF?EPUB ????????",
+      "en": "Used for fast and lightweight reading of PDF, EPUB, and other document formats."
+    }
+  },
+  {
+    "id": "autohotkey",
+    "name": {
+      "zh": "AutoHotkey",
+      "en": "AutoHotkey"
+    },
+    "category": "utility",
+    "wingetId": "AutoHotkey.AutoHotkey",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used to automate repetitive keyboard and mouse actions with custom scripts."
+    }
+  },
+  {
+    "id": "wiztree",
+    "name": {
+      "zh": "WizTree",
+      "en": "WizTree"
+    },
+    "category": "utility",
+    "wingetId": "AntibodySoftware.WizTree",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used to analyze disk usage and quickly find large files or folders."
+    }
+  },
+  {
+    "id": "geek-uninstaller",
+    "name": {
+      "zh": "Geek Uninstaller",
+      "en": "Geek Uninstaller"
+    },
+    "category": "utility",
+    "wingetId": "GeekUninstaller.GeekUninstaller",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????",
+      "en": "Used to uninstall applications and clean leftover files and registry entries."
+    }
+  },
+  {
+    "id": "ventoy",
+    "name": {
+      "zh": "Ventoy",
+      "en": "Ventoy"
+    },
+    "category": "utility",
+    "wingetId": "Ventoy.Ventoy",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????? U ???? ISO ???",
+      "en": "Used to create multi-boot USB drives by directly reusing ISO images."
+    }
+  },
+  {
+    "id": "rufus",
+    "name": {
+      "zh": "Rufus",
+      "en": "Rufus"
+    },
+    "category": "utility",
+    "wingetId": "Rufus.Rufus",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used to create bootable USB media for OS installation and recovery."
+    }
+  },
+  {
+    "id": "everything-cli",
+    "name": {
+      "zh": "Everything CLI",
+      "en": "Everything CLI"
+    },
+    "category": "utility",
+    "wingetId": "voidtools.Everything.Cli",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????? Everything ???????",
+      "en": "Used to run Everything-powered fast file searches from the command line."
+    }
+  },
+  {
+    "id": "process-explorer",
+    "name": {
+      "zh": "Process Explorer",
+      "en": "Process Explorer"
+    },
+    "category": "utility",
+    "wingetId": "Microsoft.Sysinternals.ProcessExplorer",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used to inspect process trees, handles, and troubleshoot abnormal processes."
+    }
+  },
+  {
+    "id": "crystaldiskinfo",
+    "name": {
+      "zh": "CrystalDiskInfo",
+      "en": "CrystalDiskInfo"
+    },
+    "category": "utility",
+    "wingetId": "CrystalDewWorld.CrystalDiskInfo",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????? SMART ????????????",
+      "en": "Used to monitor drive SMART health data and detect potential disk issues early."
+    }
+  },
+  {
+    "id": "crystaldiskmark",
+    "name": {
+      "zh": "CrystalDiskMark",
+      "en": "CrystalDiskMark"
+    },
+    "category": "utility",
+    "wingetId": "CrystalDewWorld.CrystalDiskMark",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????/???????",
+      "en": "Used to benchmark sequential and random disk read/write performance."
+    }
+  },
+  {
+    "id": "bleachbit",
+    "name": {
+      "zh": "BleachBit",
+      "en": "BleachBit"
+    },
+    "category": "utility",
+    "wingetId": "BleachBit.BleachBit",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used to clean caches, temporary files, and privacy traces across the system."
+    }
+  },
+  {
+    "id": "czkawka",
+    "name": {
+      "zh": "Czkawka ????",
+      "en": "Czkawka"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "qarmin.czkawka.gui",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????????",
+      "en": "Used to detect duplicate files, empty folders, and large files for safe cleanup."
+    }
+  },
+  {
+    "id": "dupeguru",
+    "name": {
+      "zh": "dupeGuru ??",
+      "en": "dupeGuru"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "DupeGuru.DupeGuru",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used to find duplicates by name or content and clean them in batches."
+    }
+  },
+  {
+    "id": "winmerge",
+    "name": {
+      "zh": "WinMerge",
+      "en": "WinMerge"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "WinMerge.WinMerge",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used to compare and merge differences across files and folders."
+    }
+  },
+  {
+    "id": "flow-launcher",
+    "name": {
+      "zh": "Flow Launcher",
+      "en": "Flow Launcher"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "Flow-Launcher.Flow-Launcher",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used to quickly launch apps, search files, and run commands from one launcher."
+    }
+  },
+  {
+    "id": "localsend",
+    "name": {
+      "zh": "LocalSend ?????",
+      "en": "LocalSend"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "LocalSend.LocalSend",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used for fast local-network file transfer across devices without cloud upload."
+    }
+  },
+  {
+    "id": "keepassxc",
+    "name": {
+      "zh": "KeePassXC ???",
+      "en": "KeePassXC"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "KeePassXCTeam.KeePassXC",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used to store credentials offline with secure vault management and autofill support."
+    }
+  },
+  {
+    "id": "bulk-crap-uninstaller",
+    "name": {
+      "zh": "Bulk Crap Uninstaller",
+      "en": "Bulk Crap Uninstaller"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "Klocman.BulkCrapUninstaller",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used to bulk-uninstall applications and remove residual leftovers."
+    }
+  },
+  {
+    "id": "double-commander",
+    "name": {
+      "zh": "Double Commander",
+      "en": "Double Commander"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "alexx2000.DoubleCommander",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for dual-pane file management, batch renaming, and power-user file operations."
+    }
+  },
+  {
+    "id": "syncthing",
+    "name": {
+      "zh": "Syncthing ??",
+      "en": "Syncthing"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "Syncthing.Syncthing",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????????",
+      "en": "Used for peer-to-peer file synchronization across multiple devices."
+    }
+  },
+  {
+    "id": "synctrayzor",
+    "name": {
+      "zh": "SyncTrayzor",
+      "en": "SyncTrayzor"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "SyncTrayzor.SyncTrayzor",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????? Syncthing ????????",
+      "en": "Used as a Windows tray controller for Syncthing tasks and sync status."
+    }
+  },
+  {
+    "id": "grepwin",
+    "name": {
+      "zh": "grepWin",
+      "en": "grepWin"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "StefansTools.grepWin",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????????????",
+      "en": "Used for GUI-based regex search and replace across files."
+    }
+  },
+  {
+    "id": "rclone",
+    "name": {
+      "zh": "rclone",
+      "en": "rclone"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "Rclone.Rclone",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????????",
+      "en": "Used to sync local folders with cloud storage backends via command line."
+    }
+  },
+  {
+    "id": "ripgrep",
+    "name": {
+      "zh": "ripgrep",
+      "en": "ripgrep"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "BurntSushi.ripgrep.GNU",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for extremely fast full-text search in codebases and documents."
+    }
+  },
+  {
+    "id": "fd-find",
+    "name": {
+      "zh": "fd ????",
+      "en": "fd"
+    },
+    "category": "utility",
+    "installType": "winget",
+    "wingetId": "sharkdp.fd",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used as a user-friendly command-line file finder with powerful filtering."
+    }
+  },
+  {
+    "id": "freefilesync",
+    "name": {
+      "zh": "FreeFileSync",
+      "en": "FreeFileSync"
+    },
+    "category": "utility",
+    "installType": "manual",
+    "manualUrl": "https://freefilesync.org/download.php",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????????????",
+      "en": "Used for folder mirroring, incremental sync, and visual backup job setup."
+    }
+  },
+  {
+    "id": "dbeaver-community",
+    "name": {
+      "zh": "DBeaver Community",
+      "en": "DBeaver Community"
+    },
+    "category": "database",
+    "wingetId": "DBeaver.DBeaver.Community",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": true,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used to connect to multiple databases for querying and administration."
+    }
+  },
+  {
+    "id": "adobe-creative-cloud",
+    "name": {
+      "zh": "Adobe Creative Cloud",
+      "en": "Adobe Creative Cloud"
+    },
+    "category": "creative",
+    "wingetId": "Adobe.CreativeCloud",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????? Adobe ???????",
+      "en": "Used to install and manage Adobe creative applications from a single hub."
+    }
+  },
+  {
+    "id": "davinci-resolve",
+    "name": {
+      "zh": "DaVinci Resolve",
+      "en": "DaVinci Resolve"
+    },
+    "category": "creative",
+    "installType": "manual",
+    "manualUrl": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for professional video editing, color grading, audio post, and delivery."
+    }
+  },
+  {
+    "id": "blender",
+    "name": {
+      "zh": "Blender",
+      "en": "Blender"
+    },
+    "category": "creative",
+    "wingetId": "BlenderFoundation.Blender",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?? 3D ????????????????",
+      "en": "Used for 3D modeling, animation, rendering, and visual content production."
+    }
+  },
+  {
+    "id": "obs-studio",
+    "name": {
+      "zh": "OBS Studio",
+      "en": "OBS Studio"
+    },
+    "category": "creative",
+    "wingetId": "OBSProject.OBSStudio",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for live streaming, screen recording, and multi-scene capture control."
+    }
+  },
+  {
+    "id": "gimp3",
+    "name": {
+      "zh": "GIMP 3",
+      "en": "GIMP 3"
+    },
+    "category": "creative",
+    "wingetId": "GIMP.GIMP.3",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for open-source bitmap editing, retouching, and compositing."
+    }
+  },
+  {
+    "id": "inkscape",
+    "name": {
+      "zh": "Inkscape",
+      "en": "Inkscape"
+    },
+    "category": "creative",
+    "wingetId": "Inkscape.Inkscape",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for vector illustration, icon design, and scalable graphics editing."
+    }
+  },
+  {
+    "id": "handbrake",
+    "name": {
+      "zh": "HandBrake",
+      "en": "HandBrake"
+    },
+    "category": "creative",
+    "wingetId": "HandBrake.HandBrake",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for video transcoding, compression, and format conversion."
+    }
+  },
+  {
+    "id": "ffmpeg",
+    "name": {
+      "zh": "FFmpeg",
+      "en": "FFmpeg"
+    },
+    "category": "creative",
+    "wingetId": "Gyan.FFmpeg",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for command-line audio/video transcoding, clipping, and batch processing."
+    }
+  },
+  {
+    "id": "audacity",
+    "name": {
+      "zh": "Audacity",
+      "en": "Audacity"
+    },
+    "category": "music",
+    "wingetId": "Audacity.Audacity",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for recording, editing, noise reduction, and basic audio mixing."
+    }
+  },
+  {
+    "id": "reaper",
+    "name": {
+      "zh": "REAPER",
+      "en": "REAPER"
+    },
+    "category": "music",
+    "wingetId": "Cockos.REAPER",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for multi-track recording, arrangement, mixing, and plugin processing."
+    }
+  },
+  {
+    "id": "lmms",
+    "name": {
+      "zh": "LMMS",
+      "en": "LMMS"
+    },
+    "category": "music",
+    "wingetId": "LMMS.LMMS",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????????MIDI ????????",
+      "en": "Used for electronic music production, MIDI sequencing, and beat creation."
+    }
+  },
+  {
+    "id": "cakewalk",
+    "name": {
+      "zh": "Cakewalk by BandLab",
+      "en": "Cakewalk by BandLab"
+    },
+    "category": "music",
+    "wingetId": "BandLab.Cakewalk",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???? DAW ???????????????",
+      "en": "Used as a full-featured DAW for recording, composing, and mixing."
+    }
+  },
+  {
+    "id": "musescore",
+    "name": {
+      "zh": "MuseScore",
+      "en": "MuseScore"
+    },
+    "category": "music",
+    "wingetId": "Musescore.Musescore",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "???????????????",
+      "en": "Used for music notation, score layout, and playback/export."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "zotero",
+    "name": {
+      "zh": "文献管理 (Zotero)",
+      "en": "Zotero"
+    },
+    "category": "research",
+    "wingetId": "Zotero.Zotero",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for reference collection, citation management, and bibliography generation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "jabref",
+    "name": {
+      "zh": "参考文献 (JabRef)",
+      "en": "JabRef"
+    },
+    "category": "research",
+    "wingetId": "JabRef.JabRef",
+    "summary": {
+      "zh": "?? BibTeX ?????? LaTeX ?????",
+      "en": "Used to manage BibTeX libraries and collaborate in LaTeX citation workflows."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "texstudio",
+    "name": {
+      "zh": "TeXstudio",
+      "en": "TeXstudio"
+    },
+    "category": "research",
+    "wingetId": "TeXstudio.TeXstudio",
+    "summary": {
+      "zh": "?? LaTeX ?????????????",
+      "en": "Used for writing, compiling, and editing LaTeX documents and equations."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "miktex",
+    "name": {
+      "zh": "MiKTeX",
+      "en": "MiKTeX"
+    },
+    "category": "research",
+    "wingetId": "MiKTeX.MiKTeX",
+    "summary": {
+      "zh": "???? TeX/LaTeX ??????????",
+      "en": "Used to provide a TeX/LaTeX distribution and package management environment."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "pandoc",
+    "name": {
+      "zh": "Pandoc",
+      "en": "Pandoc"
+    },
+    "category": "research",
+    "wingetId": "JohnMacFarlane.Pandoc",
+    "summary": {
+      "zh": "??? Markdown?Word?LaTeX ?????????",
+      "en": "Used to convert documents across Markdown, Word, LaTeX, and other formats."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "quarto",
+    "name": {
+      "zh": "Quarto",
+      "en": "Quarto"
+    },
+    "category": "research",
+    "wingetId": "Quarto.Quarto",
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used to build reproducible research reports, papers, and data narratives."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "r-project",
+    "name": {
+      "zh": "R 语言",
+      "en": "R Project"
+    },
+    "category": "research",
+    "wingetId": "RProject.R",
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for statistical modeling, data analysis, and scientific visualization."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "rstudio",
+    "name": {
+      "zh": "RStudio",
+      "en": "RStudio"
+    },
+    "category": "research",
+    "wingetId": "Posit.RStudio",
+    "summary": {
+      "zh": "?? R ????????????????",
+      "en": "Used as an IDE for R analysis, project organization, and reproducible workflows."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "julia",
+    "name": {
+      "zh": "Julia",
+      "en": "Julia"
+    },
+    "category": "research",
+    "wingetId": "Julialang.Julia",
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for high-performance numerical computing, modeling, and scientific programming."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "qgis",
+    "name": {
+      "zh": "QGIS",
+      "en": "QGIS"
+    },
+    "category": "research",
+    "wingetId": "QGIS.QGIS",
+    "summary": {
+      "zh": "???? GIS ???????????????",
+      "en": "Used for open-source GIS mapping, spatial analysis, and geodata processing."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "paraview",
+    "name": {
+      "zh": "ParaView",
+      "en": "ParaView"
+    },
+    "category": "research",
+    "wingetId": "Kitware.ParaView",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for large-scale simulation visualization and post-processing analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "kicad",
+    "name": {
+      "zh": "KiCad",
+      "en": "KiCad"
+    },
+    "category": "research",
+    "wingetId": "KiCad.KiCad",
+    "summary": {
+      "zh": "????????PCB ??????????",
+      "en": "Used for schematic capture, PCB design, and hardware prototyping workflows."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "ltspice",
+    "name": {
+      "zh": "LTspice",
+      "en": "LTspice"
+    },
+    "category": "research",
+    "wingetId": "AnalogDevices.LTspice",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for analog circuit simulation, waveform analysis, and parameter sweeps."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "graphviz",
+    "name": {
+      "zh": "Graphviz",
+      "en": "Graphviz"
+    },
+    "category": "research",
+    "wingetId": "Graphviz.Graphviz",
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used to generate flowcharts, dependency graphs, and structural diagrams."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "octave",
+    "name": {
+      "zh": "GNU Octave",
+      "en": "GNU Octave"
+    },
+    "category": "research",
+    "wingetId": "GNU.Octave",
+    "summary": {
+      "zh": "????????? MATLAB ???????",
+      "en": "Used for open-source matrix computation and MATLAB-style numerical analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "jasp",
+    "name": {
+      "zh": "JASP",
+      "en": "JASP"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://jasp-stats.org/download/",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for GUI-based statistical analysis with Bayesian methods support."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "jamovi",
+    "name": {
+      "zh": "jamovi",
+      "en": "jamovi"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.jamovi.org/download.html",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for beginner-friendly statistical analysis in teaching and research."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "gephi",
+    "name": {
+      "zh": "网络分析 (Gephi)",
+      "en": "Gephi"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://gephi.org/users/download/",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for network visualization and graph-structure analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "gnuplot",
+    "name": {
+      "zh": "Gnuplot",
+      "en": "Gnuplot"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "http://www.gnuplot.info/download.html",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for scriptable scientific plotting and curve visualization."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "scilab",
+    "name": {
+      "zh": "Scilab",
+      "en": "Scilab"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.scilab.org/download/scilab-2026.0.0",
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for open-source scientific computing, modeling, and algorithm validation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "fiji-imagej",
+    "name": {
+      "zh": "Fiji / ImageJ",
+      "en": "Fiji / ImageJ"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://imagej.net/software/fiji/downloads",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for biomedical image processing, measurement, and batch analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "cytoscape",
+    "name": {
+      "zh": "Cytoscape",
+      "en": "Cytoscape"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://cytoscape.org/download.html",
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used to build, analyze, and visualize biological interaction networks."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "pymol-open-source",
+    "name": {
+      "zh": "PyMOL",
+      "en": "PyMOL"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://pymol.org/2/",
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for molecular visualization, protein structure inspection, and publication figures."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "openfoam",
+    "name": {
+      "zh": "OpenFOAM",
+      "en": "OpenFOAM"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.openfoam.com/download/windows",
+    "summary": {
+      "zh": "???? CFD ?????????????",
+      "en": "Used for open-source CFD solving, meshing workflows, and flow analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "matlab",
+    "name": {
+      "zh": "MATLAB",
+      "en": "MATLAB"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.mathworks.com/downloads/",
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for engineering computation, algorithm development, and simulation validation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "mathematica",
+    "name": {
+      "zh": "Wolfram Mathematica",
+      "en": "Wolfram Mathematica"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.wolfram.com/mathematica/",
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for symbolic computation, formula derivation, and scientific visualization."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "spss",
+    "name": {
+      "zh": "IBM SPSS Statistics",
+      "en": "IBM SPSS Statistics"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.ibm.com/products/spss-statistics",
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for social-science statistics and survey data analysis workflows."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "stata",
+    "name": {
+      "zh": "Stata",
+      "en": "Stata"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.stata.com/install-guide/",
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used for econometrics, regression modeling, and panel data analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "eviews",
+    "name": {
+      "zh": "EViews",
+      "en": "EViews"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.eviews.com/download/",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for time-series modeling, forecasting, and macroeconomic analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "sas",
+    "name": {
+      "zh": "SAS",
+      "en": "SAS"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.sas.com/en_us/software/on-demand-for-academics.html",
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for enterprise-scale analytics, data management, and reporting."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "endnote",
+    "name": {
+      "zh": "EndNote",
+      "en": "EndNote"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://endnote.com/downloads/",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for large reference library management and citation style formatting."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "originpro",
+    "name": {
+      "zh": "OriginPro",
+      "en": "OriginPro"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.originlab.com/demodownload.aspx",
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used for experimental plotting, curve fitting, and publication-ready charts."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "graphpad-prism",
+    "name": {
+      "zh": "GraphPad Prism",
+      "en": "GraphPad Prism"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.graphpad.com/downloads/",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for biostatistics and publication-quality scientific graphing."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "nvivo",
+    "name": {
+      "zh": "NVivo",
+      "en": "NVivo"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://lumivero.com/products/nvivo/",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for qualitative coding, thematic analysis, and interview research."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "maxqda",
+    "name": {
+      "zh": "MAXQDA",
+      "en": "MAXQDA"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.maxqda.com/download",
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for qualitative analysis and coding management of text and interview data."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "atlas-ti",
+    "name": {
+      "zh": "ATLAS.ti",
+      "en": "ATLAS.ti"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://atlasti.com/free-trial-version",
+    "summary": {
+      "zh": "???????????????????",
+      "en": "Used for organizing qualitative evidence, coding, and traceable interpretation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "mplus",
+    "name": {
+      "zh": "Mplus",
+      "en": "Mplus"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.statmodel.com/download/usersguide/MplusUserGuideVer_8.pdf",
+    "summary": {
+      "zh": "?????????????????",
+      "en": "Used for structural equation modeling and latent variable analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "smartpls",
+    "name": {
+      "zh": "SmartPLS",
+      "en": "SmartPLS"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.smartpls.com/downloads",
+    "summary": {
+      "zh": "?? PLS-SEM ????????",
+      "en": "Used for PLS-SEM modeling and path analysis in applied research."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "comsol",
+    "name": {
+      "zh": "COMSOL Multiphysics",
+      "en": "COMSOL Multiphysics"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.comsol.com/download",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for multiphysics simulation and coupled-system analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "ansys",
+    "name": {
+      "zh": "Ansys",
+      "en": "Ansys"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.ansys.com/academic/students/ansys-student",
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for engineering simulations across structural, fluid, and electromagnetic domains."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "abaqus",
+    "name": {
+      "zh": "Abaqus",
+      "en": "Abaqus"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.3ds.com/products/simulia/abaqus",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for nonlinear structural analysis and finite element simulation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "arcgis-pro",
+    "name": {
+      "zh": "ArcGIS Pro",
+      "en": "ArcGIS Pro"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial",
+    "summary": {
+      "zh": "???? GIS ?????????????",
+      "en": "Used for professional GIS mapping, spatial modeling, and geospatial analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "labview",
+    "name": {
+      "zh": "LabVIEW",
+      "en": "LabVIEW"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.ni.com/en/support/downloads/software-products/download.labview.html",
+    "summary": {
+      "zh": "????????????????????",
+      "en": "Used for instrumentation control, data acquisition, and lab automation development."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "chemoffice",
+    "name": {
+      "zh": "ChemOffice / ChemDraw",
+      "en": "ChemOffice / ChemDraw"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://revvitysignals.com/products/research/chemdraw",
+    "summary": {
+      "zh": "?????????????????????",
+      "en": "Used for chemical structure drawing, reaction schematics, and lab documentation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "gaussian",
+    "name": {
+      "zh": "Gaussian",
+      "en": "Gaussian"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://gaussian.com/",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for quantum chemistry calculations and molecular property simulation."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "vmd",
+    "name": {
+      "zh": "VMD",
+      "en": "VMD"
+    },
+    "category": "research",
+    "installType": "manual",
+    "manualUrl": "https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD",
+    "summary": {
+      "zh": "??????????????????",
+      "en": "Used for molecular dynamics trajectory visualization and structural analysis."
+    }
+  },
+  {
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "id": "stellarium",
+    "name": {
+      "zh": "Stellarium",
+      "en": "Stellarium"
+    },
+    "category": "research",
+    "wingetId": "Stellarium.Stellarium",
+    "summary": {
+      "zh": "????????????????",
+      "en": "Used for astronomy education and realistic night-sky simulation."
+    }
+  },
+  {
+    "id": "anaconda",
+    "name": {
+      "zh": "Anaconda",
+      "en": "Anaconda"
+    },
+    "category": "research",
+    "wingetId": "Anaconda.Anaconda3",
+    "exact": true,
+    "requiresAdmin": true,
+    "enabledByDefault": false,
+    "summary": {
+      "zh": "?????? Python ????????????",
+      "en": "Used to quickly provision Python environments for data science and machine learning."
+    }
+  }
+]
