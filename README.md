@@ -8,7 +8,6 @@ DevHub 是一个面向 Windows 新机初始化的一键安装工具，支持按�
 
 ### 主要功能
 
-- Electron + React 图形界面，按分类勾选软件。
 - 基于 `winget` 串行安装，实时进度事件。
 - 已安装自动跳过；失败不中断；支持失败项重试。
 - 支持代理配置（`HTTP_PROXY` / `HTTPS_PROXY`）。
@@ -101,14 +100,14 @@ Default artifacts in `release/`:
 - `DevHub-Portable-x64.exe`
 
 <!-- SOFTWARE_LIST_START -->
-## Included Software List / ??????
+## Included Software List / 内置软件清单
 
-Total: **122** packages across categories. / ??? **122** ?????
+Total: **122** packages across categories. / 当前共 **122** 个软件项。
 
-> Auto-generated from `config/software-catalog.json`. / ??? `config/software-catalog.json` ?????
+> Auto-generated from `config/software-catalog.json`. / 本节由 `config/software-catalog.json` 自动生成。
 
 <details>
-<summary><strong>??? / Browser (2)</strong></summary>
+<summary><strong>浏览器 / Browser (2)</strong></summary>
 
 - **Google Chrome / Google Chrome**  `google-chrome`  `winget: Google.Chrome`
 - **Mozilla Firefox / Mozilla Firefox**  `mozilla-firefox`  `winget: Mozilla.Firefox`
@@ -116,7 +115,7 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>?? / Development (6)</strong></summary>
+<summary><strong>开发 / Development (6)</strong></summary>
 
 - **Git / Git**  `git`  `winget: Git.Git`
 - **Node.js LTS / Node.js LTS**  `node-lts`  `winget: OpenJS.NodeJS.LTS`
@@ -128,7 +127,7 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>??? / Runtime (18)</strong></summary>
+<summary><strong>运行库 / Runtime (18)</strong></summary>
 
 - **DirectX End-User Runtime / DirectX End-User Runtime**  `directx-enduser-runtime`  `winget: Microsoft.DirectX`
 - **.NET Desktop Runtime 6 / .NET Desktop Runtime 6**  `dotnet-desktop-6`  `winget: Microsoft.DotNet.DesktopRuntime.6`
@@ -152,7 +151,7 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>?? / Collaboration (3)</strong></summary>
+<summary><strong>协作 / Collaboration (3)</strong></summary>
 
 - **钉钉 / DingTalk**  `dingtalk`  `winget: Alibaba.DingTalk`
 - **微信 / WeChat**  `wechat`  `winget: Tencent.WeChat`
@@ -161,26 +160,26 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>?? / Utility (31)</strong></summary>
+<summary><strong>工具 / Utility (31)</strong></summary>
 
 - **AutoHotkey / AutoHotkey**  `autohotkey`  `winget: AutoHotkey.AutoHotkey`
 - **BleachBit / BleachBit**  `bleachbit`  `winget: BleachBit.BleachBit`
 - **Bulk Crap Uninstaller / Bulk Crap Uninstaller**  `bulk-crap-uninstaller`  `winget: Klocman.BulkCrapUninstaller`
 - **CrystalDiskInfo / CrystalDiskInfo**  `crystaldiskinfo`  `winget: CrystalDewWorld.CrystalDiskInfo`
 - **CrystalDiskMark / CrystalDiskMark**  `crystaldiskmark`  `winget: CrystalDewWorld.CrystalDiskMark`
-- **Czkawka ???? / Czkawka**  `czkawka`  `winget: qarmin.czkawka.gui`
+- **Czkawka 文件清理 / Czkawka**  `czkawka`  `winget: qarmin.czkawka.gui`
 - **Ditto 剪贴板 / Ditto Clipboard**  `ditto`  `winget: Ditto.Ditto`
 - **Double Commander / Double Commander**  `double-commander`  `winget: alexx2000.DoubleCommander`
-- **dupeGuru ?? / dupeGuru**  `dupeguru`  `winget: DupeGuru.DupeGuru`
+- **dupeGuru 去重 / dupeGuru**  `dupeguru`  `winget: DupeGuru.DupeGuru`
 - **Everything / Everything**  `everything`  `winget: voidtools.Everything`
 - **Everything CLI / Everything CLI**  `everything-cli`  `winget: voidtools.Everything.Cli`
-- **fd ???? / fd**  `fd-find`  `winget: sharkdp.fd`
+- **fd 文件查找 / fd**  `fd-find`  `winget: sharkdp.fd`
 - **Flow Launcher / Flow Launcher**  `flow-launcher`  `winget: Flow-Launcher.Flow-Launcher`
 - **FreeFileSync / FreeFileSync**  `freefilesync`  `manual: https://freefilesync.org/download.php`
 - **Geek Uninstaller / Geek Uninstaller**  `geek-uninstaller`  `winget: GeekUninstaller.GeekUninstaller`
 - **grepWin / grepWin**  `grepwin`  `winget: StefansTools.grepWin`
-- **KeePassXC ??? / KeePassXC**  `keepassxc`  `winget: KeePassXCTeam.KeePassXC`
-- **LocalSend ????? / LocalSend**  `localsend`  `winget: LocalSend.LocalSend`
+- **KeePassXC 密码库 / KeePassXC**  `keepassxc`  `winget: KeePassXCTeam.KeePassXC`
+- **LocalSend 局域网传输 / LocalSend**  `localsend`  `winget: LocalSend.LocalSend`
 - **Process Explorer / Process Explorer**  `process-explorer`  `winget: Microsoft.Sysinternals.ProcessExplorer`
 - **QuickLook / QuickLook**  `quicklook`  `winget: QL-Win.QuickLook`
 - **rclone / rclone**  `rclone`  `winget: Rclone.Rclone`
@@ -189,7 +188,7 @@ Total: **122** packages across categories. / ??? **122** ?????
 - **7-Zip / 7-Zip**  `sevenzip`  `winget: 7zip.7zip`
 - **ShareX / ShareX**  `sharex`  `winget: ShareX.ShareX`
 - **SumatraPDF / SumatraPDF**  `sumatrapdf`  `winget: SumatraPDF.SumatraPDF`
-- **Syncthing ?? / Syncthing**  `syncthing`  `winget: Syncthing.Syncthing`
+- **Syncthing 同步 / Syncthing**  `syncthing`  `winget: Syncthing.Syncthing`
 - **SyncTrayzor / SyncTrayzor**  `synctrayzor`  `winget: SyncTrayzor.SyncTrayzor`
 - **Ventoy / Ventoy**  `ventoy`  `winget: Ventoy.Ventoy`
 - **WinMerge / WinMerge**  `winmerge`  `winget: WinMerge.WinMerge`
@@ -198,14 +197,14 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>??? / Database (1)</strong></summary>
+<summary><strong>数据库 / Database (1)</strong></summary>
 
 - **DBeaver Community / DBeaver Community**  `dbeaver-community`  `winget: DBeaver.DBeaver.Community`
 
 </details>
 
 <details>
-<summary><strong>???? / Creative (8)</strong></summary>
+<summary><strong>内容创作 / Creative (8)</strong></summary>
 
 - **Adobe Creative Cloud / Adobe Creative Cloud**  `adobe-creative-cloud`  `winget: Adobe.CreativeCloud`
 - **Blender / Blender**  `blender`  `winget: BlenderFoundation.Blender`
@@ -219,7 +218,7 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>???? / Music (5)</strong></summary>
+<summary><strong>音乐创作 / Music (5)</strong></summary>
 
 - **Audacity / Audacity**  `audacity`  `winget: Audacity.Audacity`
 - **Cakewalk by BandLab / Cakewalk by BandLab**  `cakewalk`  `winget: BandLab.Cakewalk`
@@ -230,7 +229,7 @@ Total: **122** packages across categories. / ??? **122** ?????
 </details>
 
 <details>
-<summary><strong>?? / Research (48)</strong></summary>
+<summary><strong>科研 / Research (48)</strong></summary>
 
 - **Abaqus / Abaqus**  `abaqus`  `manual: https://www.3ds.com/products/simulia/abaqus`
 - **Anaconda / Anaconda**  `anaconda`  `winget: Anaconda.Anaconda3`

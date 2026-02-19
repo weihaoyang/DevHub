@@ -11,7 +11,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "?????????????? Web ?????",
+      "zh": "用于日常网页浏览、账户登录和 Web 应用访问。",
       "en": "Used for daily web browsing, account sign-in, and web app access."
     }
   },
@@ -27,7 +27,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于隐私优先的网页浏览，并支持跨设备书签同步。",
       "en": "Used for privacy-focused browsing with cross-device bookmark sync."
     }
   },
@@ -43,7 +43,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于代码编辑、调试和基于扩展的开发工作流程。",
       "en": "Used for code editing, debugging, and extension-based development workflows."
     }
   },
@@ -59,7 +59,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于版本控制、分支工作流程和代码历史管理。",
       "en": "Used for version control, branching workflows, and code history management."
     }
   },
@@ -75,7 +75,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "?? JavaScript/TypeScript ??????????????",
+      "zh": "用于运行和构建 JavaScript/TypeScript 项目，并提供稳定的 LTS 运行环境。",
       "en": "Used to run, build, and script JavaScript/TypeScript projects with the LTS runtime."
     }
   },
@@ -91,7 +91,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于数据处理、自动化脚本编写和科学计算。",
       "en": "Used for data processing, automation scripting, and scientific computing."
     }
   },
@@ -107,7 +107,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于轻量文本编辑、日志查看和多语言语法高亮。",
       "en": "Used for lightweight text editing, log inspection, and multi-language syntax highlighting."
     }
   },
@@ -123,7 +123,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于增强 Windows 效率，如窗口管理、快捷操作和系统增强工具。",
       "en": "Used to enhance Windows productivity with window tools and utility modules."
     }
   },
@@ -139,7 +139,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2005 X64 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2005 X64 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2005 X64 runtime components for app compatibility."
     }
   },
@@ -155,7 +155,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2005 X86 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2005 X86 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2005 X86 runtime components for app compatibility."
     }
   },
@@ -171,7 +171,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2008 X64 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2008 X64 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2008 X64 runtime components for app compatibility."
     }
   },
@@ -187,7 +187,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2008 X86 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2008 X86 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2008 X86 runtime components for app compatibility."
     }
   },
@@ -203,7 +203,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2010 X64 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2010 X64 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2010 X64 runtime components for app compatibility."
     }
   },
@@ -219,7 +219,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2010 X86 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2010 X86 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2010 X86 runtime components for app compatibility."
     }
   },
@@ -235,7 +235,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2012 X64 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2012 X64 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2012 X64 runtime components for app compatibility."
     }
   },
@@ -251,7 +251,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2012 X86 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2012 X86 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2012 X86 runtime components for app compatibility."
     }
   },
@@ -267,7 +267,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2013 X64 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2013 X64 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2013 X64 runtime components for app compatibility."
     }
   },
@@ -283,7 +283,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2013 X86 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2013 X86 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2013 X86 runtime components for app compatibility."
     }
   },
@@ -299,7 +299,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2015-2022 X64 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2015-2022 X64 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2015-2022 X64 runtime components for app compatibility."
     }
   },
@@ -315,7 +315,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? Visual C++ 2015-2022 X86 ?????????????",
+      "zh": "用于安装 Microsoft Visual C++ 2015-2022 X86 运行时组件以实现应用程序兼容性。",
       "en": "Used to install Microsoft Visual C++ 2015-2022 X86 runtime components for app compatibility."
     }
   },
@@ -331,7 +331,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? .NET 8 Desktop Runtime?????????????",
+      "zh": "用于为现代桌面应用提供 .NET 8 Desktop Runtime 运行库。",
       "en": "Used to provide .NET 8 Desktop Runtime for modern desktop applications."
     }
   },
@@ -347,7 +347,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? .NET 6 Desktop Runtime?????? LTS 6 ????",
+      "zh": "用于为仍基于 LTS 6 的应用提供 .NET 6 Desktop Runtime 运行库。",
       "en": "Used to provide .NET 6 Desktop Runtime for applications still targeting LTS 6."
     }
   },
@@ -363,7 +363,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????? DirectX ????????????? DLL ???",
+      "zh": "用于添加旧版 DirectX 组件并减少缺少 DLL 的启动错误。",
       "en": "Used to add legacy DirectX components and reduce missing-DLL launch errors."
     }
   },
@@ -379,7 +379,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????? XNA Framework ?????????",
+      "zh": "用于与依赖于 XNA Framework 的旧版游戏和应用程序兼容。",
       "en": "Used for compatibility with legacy games and apps that depend on XNA Framework."
     }
   },
@@ -395,7 +395,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? PhysX ??????????????????",
+      "zh": "用于安装 PhysX 运行时组件以获得更好的旧游戏兼容性。",
       "en": "Used to install PhysX runtime components for better legacy game compatibility."
     }
   },
@@ -411,7 +411,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? OpenAL ????????????????????",
+      "zh": "用于安装 OpenAL 音频库并修复丢失音频运行时问题。",
       "en": "Used to install OpenAL audio libraries and fix missing-audio runtime issues."
     }
   },
@@ -427,7 +427,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于个人聊天、文件传输和跨设备沟通。",
       "en": "Used for personal messaging, file transfer, and cross-device communication."
     }
   },
@@ -443,7 +443,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于企业沟通、审批通知和团队协作。",
       "en": "Used for enterprise messaging, approval notifications, and team collaboration."
     }
   },
@@ -459,7 +459,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于团队沟通、会议和组织协作。",
       "en": "Used for team communication, meetings, and organizational collaboration."
     }
   },
@@ -475,7 +475,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于解压与创建压缩包，支持多种格式并具备高压缩率。",
       "en": "Used to extract and create archives with broad format support and high compression."
     }
   },
@@ -491,7 +491,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于索引本地文件名并立即定位文件。",
       "en": "Used to index local filenames and locate files instantly."
     }
   },
@@ -507,7 +507,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于扩展剪贴板历史记录并快速粘贴以前复制的项目。",
       "en": "Used to extend clipboard history and quickly paste previously copied items."
     }
   },
@@ -523,7 +523,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于使用空格键即时预览图像、文档和媒体文件。",
       "en": "Used to preview images, documents, and media files instantly with the space key."
     }
   },
@@ -539,7 +539,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于截图、录屏、注释、快速分享。",
       "en": "Used for screenshots, screen recording, annotation, and quick sharing."
     }
   },
@@ -555,7 +555,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????? PDF?EPUB ????????",
+      "zh": "用于快速、轻量级地阅读 PDF、EPUB 和其他文档格式。",
       "en": "Used for fast and lightweight reading of PDF, EPUB, and other document formats."
     }
   },
@@ -571,7 +571,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于使用自定义脚本自动执行重复的键盘和鼠标操作。",
       "en": "Used to automate repetitive keyboard and mouse actions with custom scripts."
     }
   },
@@ -587,7 +587,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于分析磁盘使用情况并快速查找大文件或文件夹。",
       "en": "Used to analyze disk usage and quickly find large files or folders."
     }
   },
@@ -603,7 +603,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????",
+      "zh": "用于卸载应用程序并清理残留文件和注册表项。",
       "en": "Used to uninstall applications and clean leftover files and registry entries."
     }
   },
@@ -619,7 +619,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????? U ???? ISO ???",
+      "zh": "用于通过直接重用 ISO 映像来创建多启动 USB 驱动器。",
       "en": "Used to create multi-boot USB drives by directly reusing ISO images."
     }
   },
@@ -635,7 +635,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于创建用于操作系统安装和恢复的可启动 USB 介质。",
       "en": "Used to create bootable USB media for OS installation and recovery."
     }
   },
@@ -651,7 +651,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????? Everything ???????",
+      "zh": "用于从命令行运行 Everything 支持的快速文件搜索。",
       "en": "Used to run Everything-powered fast file searches from the command line."
     }
   },
@@ -667,7 +667,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于检查进程树、处理异常进程并排除故障。",
       "en": "Used to inspect process trees, handles, and troubleshoot abnormal processes."
     }
   },
@@ -683,7 +683,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????? SMART ????????????",
+      "zh": "用于监控驱动器 SMART 运行状况数据并及早检测潜在的磁盘问题。",
       "en": "Used to monitor drive SMART health data and detect potential disk issues early."
     }
   },
@@ -699,7 +699,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????/???????",
+      "zh": "用于对顺序和随机磁盘读/写性能进行基准测试。",
       "en": "Used to benchmark sequential and random disk read/write performance."
     }
   },
@@ -715,14 +715,14 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于清理整个系统的缓存、临时文件和隐私痕迹。",
       "en": "Used to clean caches, temporary files, and privacy traces across the system."
     }
   },
   {
     "id": "czkawka",
     "name": {
-      "zh": "Czkawka ????",
+      "zh": "Czkawka 文件清理",
       "en": "Czkawka"
     },
     "category": "utility",
@@ -732,14 +732,14 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????????",
+      "zh": "用于检测重复文件、空文件夹和大文件以进行安全清理。",
       "en": "Used to detect duplicate files, empty folders, and large files for safe cleanup."
     }
   },
   {
     "id": "dupeguru",
     "name": {
-      "zh": "dupeGuru ??",
+      "zh": "dupeGuru 去重",
       "en": "dupeGuru"
     },
     "category": "utility",
@@ -749,7 +749,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于按名称或内容查找重复项并批量清理。",
       "en": "Used to find duplicates by name or content and clean them in batches."
     }
   },
@@ -766,7 +766,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于比较和合并文件和文件夹之间的差异。",
       "en": "Used to compare and merge differences across files and folders."
     }
   },
@@ -783,14 +783,14 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于从一个启动器快速启动应用程序、搜索文件和运行命令。",
       "en": "Used to quickly launch apps, search files, and run commands from one launcher."
     }
   },
   {
     "id": "localsend",
     "name": {
-      "zh": "LocalSend ?????",
+      "zh": "LocalSend 局域网传输",
       "en": "LocalSend"
     },
     "category": "utility",
@@ -800,14 +800,14 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于跨设备快速本地网络文件传输，无需云上传。",
       "en": "Used for fast local-network file transfer across devices without cloud upload."
     }
   },
   {
     "id": "keepassxc",
     "name": {
-      "zh": "KeePassXC ???",
+      "zh": "KeePassXC 密码库",
       "en": "KeePassXC"
     },
     "category": "utility",
@@ -817,7 +817,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于通过安全保管库管理和自动填充支持离线存储凭据。",
       "en": "Used to store credentials offline with secure vault management and autofill support."
     }
   },
@@ -834,7 +834,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于批量卸载应用程序并删除残留的残留物。",
       "en": "Used to bulk-uninstall applications and remove residual leftovers."
     }
   },
@@ -851,14 +851,14 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于双窗格文件管理、批量重命名和高级用户文件操作。",
       "en": "Used for dual-pane file management, batch renaming, and power-user file operations."
     }
   },
   {
     "id": "syncthing",
     "name": {
-      "zh": "Syncthing ??",
+      "zh": "Syncthing 同步",
       "en": "Syncthing"
     },
     "category": "utility",
@@ -868,7 +868,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????????",
+      "zh": "用于跨多个设备的点对点文件同步。",
       "en": "Used for peer-to-peer file synchronization across multiple devices."
     }
   },
@@ -885,7 +885,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????? Syncthing ????????",
+      "zh": "作为 Syncthing 的 Windows 托盘控制器，用于管理同步任务与状态。",
       "en": "Used as a Windows tray controller for Syncthing tasks and sync status."
     }
   },
@@ -902,7 +902,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????????????",
+      "zh": "用于基于 GUI 的正则表达式搜索和跨文件替换。",
       "en": "Used for GUI-based regex search and replace across files."
     }
   },
@@ -919,7 +919,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????????",
+      "zh": "用于通过命令行将本地文件夹与云存储后端同步。",
       "en": "Used to sync local folders with cloud storage backends via command line."
     }
   },
@@ -936,14 +936,14 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于在代码库和文档中进行极快的全文搜索。",
       "en": "Used for extremely fast full-text search in codebases and documents."
     }
   },
   {
     "id": "fd-find",
     "name": {
-      "zh": "fd ????",
+      "zh": "fd 文件查找",
       "en": "fd"
     },
     "category": "utility",
@@ -953,7 +953,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用作用户友好的命令行文件查找器，具有强大的过滤功能。",
       "en": "Used as a user-friendly command-line file finder with powerful filtering."
     }
   },
@@ -970,7 +970,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????????????",
+      "zh": "用于文件夹镜像、增量同步和可视备份作业设置。",
       "en": "Used for folder mirroring, incremental sync, and visual backup job setup."
     }
   },
@@ -986,7 +986,7 @@
     "requiresAdmin": true,
     "enabledByDefault": true,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于连接多个数据库进行查询和管理。",
       "en": "Used to connect to multiple databases for querying and administration."
     }
   },
@@ -1002,7 +1002,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????? Adobe ???????",
+      "zh": "用于从单个中心安装和管理 Adob​​e 创意应用程序。",
       "en": "Used to install and manage Adobe creative applications from a single hub."
     }
   },
@@ -1019,7 +1019,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于专业视频编辑、调色、音频后期和交付。",
       "en": "Used for professional video editing, color grading, audio post, and delivery."
     }
   },
@@ -1035,7 +1035,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?? 3D ????????????????",
+      "zh": "用于 3D 建模、动画、渲染和视觉内容制作。",
       "en": "Used for 3D modeling, animation, rendering, and visual content production."
     }
   },
@@ -1051,7 +1051,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于直播、录屏、多场景抓拍控制。",
       "en": "Used for live streaming, screen recording, and multi-scene capture control."
     }
   },
@@ -1067,7 +1067,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于开源位图编辑、修饰和合成。",
       "en": "Used for open-source bitmap editing, retouching, and compositing."
     }
   },
@@ -1083,7 +1083,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于矢量插图、图标设计和可缩放图形编辑。",
       "en": "Used for vector illustration, icon design, and scalable graphics editing."
     }
   },
@@ -1099,7 +1099,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于视频转码、压缩和格式转换。",
       "en": "Used for video transcoding, compression, and format conversion."
     }
   },
@@ -1115,7 +1115,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于命令行音频/视频转码、剪辑和批处理。",
       "en": "Used for command-line audio/video transcoding, clipping, and batch processing."
     }
   },
@@ -1131,7 +1131,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于录音、编辑、降噪和基本音频混合。",
       "en": "Used for recording, editing, noise reduction, and basic audio mixing."
     }
   },
@@ -1147,7 +1147,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于多轨录音、编曲、混音和插件处理。",
       "en": "Used for multi-track recording, arrangement, mixing, and plugin processing."
     }
   },
@@ -1163,7 +1163,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????????MIDI ????????",
+      "zh": "用于电子音乐制作、MIDI 排序和节拍创作。",
       "en": "Used for electronic music production, MIDI sequencing, and beat creation."
     }
   },
@@ -1179,7 +1179,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???? DAW ???????????????",
+      "zh": "用作录音、作曲和混音的全功能 DAW。",
       "en": "Used as a full-featured DAW for recording, composing, and mixing."
     }
   },
@@ -1195,7 +1195,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "???????????????",
+      "zh": "用于乐谱、乐谱布局和播放/导出。",
       "en": "Used for music notation, score layout, and playback/export."
     }
   },
@@ -1211,7 +1211,7 @@
     "category": "research",
     "wingetId": "Zotero.Zotero",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于参考资料收集、引文管理和参考书目生成。",
       "en": "Used for reference collection, citation management, and bibliography generation."
     }
   },
@@ -1227,7 +1227,7 @@
     "category": "research",
     "wingetId": "JabRef.JabRef",
     "summary": {
-      "zh": "?? BibTeX ?????? LaTeX ?????",
+      "zh": "用于管理 BibTeX 库并在 LaTeX 引文工作流程中进行协作。",
       "en": "Used to manage BibTeX libraries and collaborate in LaTeX citation workflows."
     }
   },
@@ -1243,7 +1243,7 @@
     "category": "research",
     "wingetId": "TeXstudio.TeXstudio",
     "summary": {
-      "zh": "?? LaTeX ?????????????",
+      "zh": "用于编写、编译和编辑 LaTeX 文档和方程。",
       "en": "Used for writing, compiling, and editing LaTeX documents and equations."
     }
   },
@@ -1259,7 +1259,7 @@
     "category": "research",
     "wingetId": "MiKTeX.MiKTeX",
     "summary": {
-      "zh": "???? TeX/LaTeX ??????????",
+      "zh": "用于提供 TeX/LaTeX 分发和包管理环境。",
       "en": "Used to provide a TeX/LaTeX distribution and package management environment."
     }
   },
@@ -1275,7 +1275,7 @@
     "category": "research",
     "wingetId": "JohnMacFarlane.Pandoc",
     "summary": {
-      "zh": "??? Markdown?Word?LaTeX ?????????",
+      "zh": "用于在 Markdown、Word、LaTeX 等格式之间转换文档。",
       "en": "Used to convert documents across Markdown, Word, LaTeX, and other formats."
     }
   },
@@ -1291,7 +1291,7 @@
     "category": "research",
     "wingetId": "Quarto.Quarto",
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于构建可重复的研究报告、论文和数据叙述。",
       "en": "Used to build reproducible research reports, papers, and data narratives."
     }
   },
@@ -1307,7 +1307,7 @@
     "category": "research",
     "wingetId": "RProject.R",
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于统计建模、数据分析和科学可视化。",
       "en": "Used for statistical modeling, data analysis, and scientific visualization."
     }
   },
@@ -1323,7 +1323,7 @@
     "category": "research",
     "wingetId": "Posit.RStudio",
     "summary": {
-      "zh": "?? R ????????????????",
+      "zh": "用作 R 分析、项目组织和可重现工作流程的 IDE。",
       "en": "Used as an IDE for R analysis, project organization, and reproducible workflows."
     }
   },
@@ -1339,7 +1339,7 @@
     "category": "research",
     "wingetId": "Julialang.Julia",
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于高性能数值计算、建模和科学编程。",
       "en": "Used for high-performance numerical computing, modeling, and scientific programming."
     }
   },
@@ -1355,7 +1355,7 @@
     "category": "research",
     "wingetId": "QGIS.QGIS",
     "summary": {
-      "zh": "???? GIS ???????????????",
+      "zh": "用于开源 GIS 制图、空间分析和地理数据处理。",
       "en": "Used for open-source GIS mapping, spatial analysis, and geodata processing."
     }
   },
@@ -1371,7 +1371,7 @@
     "category": "research",
     "wingetId": "Kitware.ParaView",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于大规模仿真可视化和后处理分析。",
       "en": "Used for large-scale simulation visualization and post-processing analysis."
     }
   },
@@ -1387,7 +1387,7 @@
     "category": "research",
     "wingetId": "KiCad.KiCad",
     "summary": {
-      "zh": "????????PCB ??????????",
+      "zh": "用于原理图捕获、PCB 设计和硬件原型制作工作流程。",
       "en": "Used for schematic capture, PCB design, and hardware prototyping workflows."
     }
   },
@@ -1403,7 +1403,7 @@
     "category": "research",
     "wingetId": "AnalogDevices.LTspice",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于模拟电路仿真、波形分析和参数扫描。",
       "en": "Used for analog circuit simulation, waveform analysis, and parameter sweeps."
     }
   },
@@ -1419,7 +1419,7 @@
     "category": "research",
     "wingetId": "Graphviz.Graphviz",
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于生成流程图、依赖图和结构图。",
       "en": "Used to generate flowcharts, dependency graphs, and structural diagrams."
     }
   },
@@ -1435,7 +1435,7 @@
     "category": "research",
     "wingetId": "GNU.Octave",
     "summary": {
-      "zh": "????????? MATLAB ???????",
+      "zh": "用于开源矩阵计算和 MATLAB 式数值分析。",
       "en": "Used for open-source matrix computation and MATLAB-style numerical analysis."
     }
   },
@@ -1452,7 +1452,7 @@
     "installType": "manual",
     "manualUrl": "https://jasp-stats.org/download/",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于基于 GUI 的统计分析，并支持贝叶斯方法。",
       "en": "Used for GUI-based statistical analysis with Bayesian methods support."
     }
   },
@@ -1469,7 +1469,7 @@
     "installType": "manual",
     "manualUrl": "https://www.jamovi.org/download.html",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于教学和研究中初学者友好的统计分析。",
       "en": "Used for beginner-friendly statistical analysis in teaching and research."
     }
   },
@@ -1486,7 +1486,7 @@
     "installType": "manual",
     "manualUrl": "https://gephi.org/users/download/",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于网络可视化和图结构分析。",
       "en": "Used for network visualization and graph-structure analysis."
     }
   },
@@ -1503,7 +1503,7 @@
     "installType": "manual",
     "manualUrl": "http://www.gnuplot.info/download.html",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于可编写脚本的科学绘图和曲线可视化。",
       "en": "Used for scriptable scientific plotting and curve visualization."
     }
   },
@@ -1520,7 +1520,7 @@
     "installType": "manual",
     "manualUrl": "https://www.scilab.org/download/scilab-2026.0.0",
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于开源科学计算、建模和算法验证。",
       "en": "Used for open-source scientific computing, modeling, and algorithm validation."
     }
   },
@@ -1537,7 +1537,7 @@
     "installType": "manual",
     "manualUrl": "https://imagej.net/software/fiji/downloads",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于生物医学图像处理、测量和批量分析。",
       "en": "Used for biomedical image processing, measurement, and batch analysis."
     }
   },
@@ -1554,7 +1554,7 @@
     "installType": "manual",
     "manualUrl": "https://cytoscape.org/download.html",
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于构建、分析和可视化生物相互作用网络。",
       "en": "Used to build, analyze, and visualize biological interaction networks."
     }
   },
@@ -1571,7 +1571,7 @@
     "installType": "manual",
     "manualUrl": "https://pymol.org/2/",
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于分子可视化、蛋白质结构检查和出版物图。",
       "en": "Used for molecular visualization, protein structure inspection, and publication figures."
     }
   },
@@ -1588,7 +1588,7 @@
     "installType": "manual",
     "manualUrl": "https://www.openfoam.com/download/windows",
     "summary": {
-      "zh": "???? CFD ?????????????",
+      "zh": "用于开源 CFD 求解、网格划分工作流程和流动分析。",
       "en": "Used for open-source CFD solving, meshing workflows, and flow analysis."
     }
   },
@@ -1605,7 +1605,7 @@
     "installType": "manual",
     "manualUrl": "https://www.mathworks.com/downloads/",
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于工程计算、算法开发和仿真验证。",
       "en": "Used for engineering computation, algorithm development, and simulation validation."
     }
   },
@@ -1622,7 +1622,7 @@
     "installType": "manual",
     "manualUrl": "https://www.wolfram.com/mathematica/",
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于符号计算、公式推导和科学可视化。",
       "en": "Used for symbolic computation, formula derivation, and scientific visualization."
     }
   },
@@ -1639,7 +1639,7 @@
     "installType": "manual",
     "manualUrl": "https://www.ibm.com/products/spss-statistics",
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于社会科学统计和调查数据分析工作流程。",
       "en": "Used for social-science statistics and survey data analysis workflows."
     }
   },
@@ -1656,7 +1656,7 @@
     "installType": "manual",
     "manualUrl": "https://www.stata.com/install-guide/",
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于计量经济学、回归建模和面板数据分析。",
       "en": "Used for econometrics, regression modeling, and panel data analysis."
     }
   },
@@ -1673,7 +1673,7 @@
     "installType": "manual",
     "manualUrl": "https://www.eviews.com/download/",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于时间序列建模、预测和宏观经济分析。",
       "en": "Used for time-series modeling, forecasting, and macroeconomic analysis."
     }
   },
@@ -1690,7 +1690,7 @@
     "installType": "manual",
     "manualUrl": "https://www.sas.com/en_us/software/on-demand-for-academics.html",
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于企业级分析、数据管理和报告。",
       "en": "Used for enterprise-scale analytics, data management, and reporting."
     }
   },
@@ -1707,7 +1707,7 @@
     "installType": "manual",
     "manualUrl": "https://endnote.com/downloads/",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于大型参考图书馆管理和引文样式格式化。",
       "en": "Used for large reference library management and citation style formatting."
     }
   },
@@ -1724,7 +1724,7 @@
     "installType": "manual",
     "manualUrl": "https://www.originlab.com/demodownload.aspx",
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于实验绘图、曲线拟合和可供出版的图表。",
       "en": "Used for experimental plotting, curve fitting, and publication-ready charts."
     }
   },
@@ -1741,7 +1741,7 @@
     "installType": "manual",
     "manualUrl": "https://www.graphpad.com/downloads/",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于生物统计学和出版质量的科学绘图。",
       "en": "Used for biostatistics and publication-quality scientific graphing."
     }
   },
@@ -1758,7 +1758,7 @@
     "installType": "manual",
     "manualUrl": "https://lumivero.com/products/nvivo/",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于定性编码、主题分析和访谈研究。",
       "en": "Used for qualitative coding, thematic analysis, and interview research."
     }
   },
@@ -1775,7 +1775,7 @@
     "installType": "manual",
     "manualUrl": "https://www.maxqda.com/download",
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于文本和访谈数据的定性分析和编码管理。",
       "en": "Used for qualitative analysis and coding management of text and interview data."
     }
   },
@@ -1792,7 +1792,7 @@
     "installType": "manual",
     "manualUrl": "https://atlasti.com/free-trial-version",
     "summary": {
-      "zh": "???????????????????",
+      "zh": "用于组织定性证据、编码和可追溯的解释。",
       "en": "Used for organizing qualitative evidence, coding, and traceable interpretation."
     }
   },
@@ -1809,7 +1809,7 @@
     "installType": "manual",
     "manualUrl": "https://www.statmodel.com/download/usersguide/MplusUserGuideVer_8.pdf",
     "summary": {
-      "zh": "?????????????????",
+      "zh": "用于结构方程建模和潜变量分析。",
       "en": "Used for structural equation modeling and latent variable analysis."
     }
   },
@@ -1826,7 +1826,7 @@
     "installType": "manual",
     "manualUrl": "https://www.smartpls.com/downloads",
     "summary": {
-      "zh": "?? PLS-SEM ????????",
+      "zh": "用于应用研究中的PLS-SEM建模和路径分析。",
       "en": "Used for PLS-SEM modeling and path analysis in applied research."
     }
   },
@@ -1843,7 +1843,7 @@
     "installType": "manual",
     "manualUrl": "https://www.comsol.com/download",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于多物理场仿真和耦合系统分析。",
       "en": "Used for multiphysics simulation and coupled-system analysis."
     }
   },
@@ -1860,7 +1860,7 @@
     "installType": "manual",
     "manualUrl": "https://www.ansys.com/academic/students/ansys-student",
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于跨结构、流体和电磁领域的工程模拟。",
       "en": "Used for engineering simulations across structural, fluid, and electromagnetic domains."
     }
   },
@@ -1877,7 +1877,7 @@
     "installType": "manual",
     "manualUrl": "https://www.3ds.com/products/simulia/abaqus",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于非线性结构分析和有限元模拟。",
       "en": "Used for nonlinear structural analysis and finite element simulation."
     }
   },
@@ -1894,7 +1894,7 @@
     "installType": "manual",
     "manualUrl": "https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial",
     "summary": {
-      "zh": "???? GIS ?????????????",
+      "zh": "用于专业 GIS 制图、空间建模和地理空间分析。",
       "en": "Used for professional GIS mapping, spatial modeling, and geospatial analysis."
     }
   },
@@ -1911,7 +1911,7 @@
     "installType": "manual",
     "manualUrl": "https://www.ni.com/en/support/downloads/software-products/download.labview.html",
     "summary": {
-      "zh": "????????????????????",
+      "zh": "用于仪器控制、数据采集和实验室自动化开发。",
       "en": "Used for instrumentation control, data acquisition, and lab automation development."
     }
   },
@@ -1928,7 +1928,7 @@
     "installType": "manual",
     "manualUrl": "https://revvitysignals.com/products/research/chemdraw",
     "summary": {
-      "zh": "?????????????????????",
+      "zh": "用于化学结构图、反应示意图和实验室文档。",
       "en": "Used for chemical structure drawing, reaction schematics, and lab documentation."
     }
   },
@@ -1945,7 +1945,7 @@
     "installType": "manual",
     "manualUrl": "https://gaussian.com/",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于量子化学计算和分子性质模拟。",
       "en": "Used for quantum chemistry calculations and molecular property simulation."
     }
   },
@@ -1962,7 +1962,7 @@
     "installType": "manual",
     "manualUrl": "https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD",
     "summary": {
-      "zh": "??????????????????",
+      "zh": "用于分子动力学轨迹可视化和结构分析。",
       "en": "Used for molecular dynamics trajectory visualization and structural analysis."
     }
   },
@@ -1978,7 +1978,7 @@
     "category": "research",
     "wingetId": "Stellarium.Stellarium",
     "summary": {
-      "zh": "????????????????",
+      "zh": "用于天文学教育和逼真的夜空模拟。",
       "en": "Used for astronomy education and realistic night-sky simulation."
     }
   },
@@ -1994,7 +1994,7 @@
     "requiresAdmin": true,
     "enabledByDefault": false,
     "summary": {
-      "zh": "?????? Python ????????????",
+      "zh": "用于快速配置数据科学和机器学习的 Python 环境。",
       "en": "Used to quickly provision Python environments for data science and machine learning."
     }
   }

@@ -6,7 +6,7 @@
       "en": "Developer Standard"
     },
     "description": {
-      "zh": "???????????????????????????",
+      "zh": "覆盖新机开发常用基础软件，包含编码、协作与数据库入门工具。",
       "en": "Includes core development, collaboration, and basic database tools for a quick workstation setup."
     },
     "packageIds": [
@@ -30,7 +30,7 @@
       "en": "Essential Utilities"
     },
     "description": {
-      "zh": "????????????????????????",
+      "zh": "聚焦高频日常工具，覆盖搜索、截图、预览与剪贴板效率场景。",
       "en": "Provides high-frequency daily tools for search, capture, preview, and clipboard workflows."
     },
     "packageIds": [
@@ -51,7 +51,7 @@
       "en": "System Maintenance"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "面向系统维护场景，覆盖磁盘检测、进程诊断、清理卸载与启动盘制作。",
       "en": "Targets disk checks, process diagnostics, cleanup/uninstall tasks, and boot media creation."
     },
     "packageIds": [
@@ -70,11 +70,11 @@
   {
     "id": "utility-open-source-toolkit",
     "name": {
-      "zh": "???????",
+      "zh": "开源效率全家桶",
       "en": "Open-Source Productivity Suite"
     },
     "description": {
-      "zh": "?????????????????????????????",
+      "zh": "覆盖去重清理、文件同步、快速启动、增强搜索与双栏文件管理。",
       "en": "Covers dedup cleanup, file sync, fast launch, enhanced search, and dual-pane file management."
     },
     "packageIds": [
@@ -99,11 +99,11 @@
   {
     "id": "utility-file-dedup-sync",
     "name": {
-      "zh": "???????",
+      "zh": "文件清理与去重",
       "en": "File Cleanup & Dedup"
     },
     "description": {
-      "zh": "??????????????????????",
+      "zh": "聚焦重复文件清理、差异比对与多设备文件夹同步。",
       "en": "Focused on duplicate cleanup, diff comparison, and multi-device folder synchronization."
     },
     "packageIds": [
@@ -123,7 +123,7 @@
       "en": "Runtime & DLL Repair"
     },
     "description": {
-      "zh": "??????????????????? DLL/???????",
+      "zh": "安装常见运行库并执行系统修复命令，用于处理 DLL/组件缺失问题。",
       "en": "Installs common runtimes and runs system repair commands for missing DLL/component issues."
     },
     "packageIds": [
@@ -154,7 +154,7 @@
       "en": "Content Creator"
     },
     "description": {
-      "zh": "????????????????????????",
+      "zh": "面向内容创作流程，覆盖剪辑、设计、录屏直播与后期处理。",
       "en": "Covers editing, design, live capture, and post-production workflows for content creators."
     },
     "packageIds": [
@@ -175,7 +175,7 @@
       "en": "Music Creator"
     },
     "description": {
-      "zh": "???????????????????????",
+      "zh": "面向音乐制作流程，覆盖录音、编曲、混音与制谱。",
       "en": "Provides music-production tools for recording, composing, mixing, and score authoring."
     },
     "packageIds": [
@@ -194,7 +194,7 @@
       "en": "All-in Creator Suite"
     },
     "description": {
-      "zh": "??????????????????????",
+      "zh": "组合视频创作与音乐制作工具，适合全能型创作者。",
       "en": "Combines video-creation and music-production stacks for all-round creators."
     },
     "packageIds": [
@@ -220,7 +220,7 @@
       "en": "Short Video Editing"
     },
     "description": {
-      "zh": "??????????????????????",
+      "zh": "针对短视频场景优化，覆盖采集、剪辑、转码与封面制作。",
       "en": "Optimized for short-video capture, editing, transcoding, and thumbnail preparation."
     },
     "packageIds": [
@@ -239,7 +239,7 @@
       "en": "3D Modeling"
     },
     "description": {
-      "zh": "?? 3D ???????????????",
+      "zh": "面向 3D 建模与渲染流程，覆盖建模、贴图与资产输出。",
       "en": "Designed for 3D modeling, texturing, and rendering asset production."
     },
     "packageIds": [
@@ -257,7 +257,7 @@
       "en": "Live Streaming"
     },
     "description": {
-      "zh": "???????????????????",
+      "zh": "面向直播场景，覆盖推流、场景切换与实时音频处理。",
       "en": "Built for live streaming, scene switching, and real-time audio processing."
     },
     "packageIds": [
@@ -274,7 +274,7 @@
       "en": "Music Composing"
     },
     "description": {
-      "zh": "??????????????????",
+      "zh": "聚焦作曲与配乐，覆盖录音、记谱与音频导出。",
       "en": "Focused on composition, recording, notation, and audio export."
     },
     "packageIds": [
@@ -293,7 +293,7 @@
       "en": "Research Core Pack"
     },
     "description": {
-      "zh": "???????LaTeX ????????????????",
+      "zh": "覆盖科研通用基础能力，包括文献管理、LaTeX 写作、统计分析与可视化。",
       "en": "Covers reference management, LaTeX writing, statistical analysis, and core visualization tools."
     },
     "packageIds": [
@@ -318,7 +318,7 @@
       "en": "Social Science & Economics"
     },
     "description": {
-      "zh": "??????????????????????????",
+      "zh": "面向社科与经管研究，覆盖计量分析、质性编码与论文写作。",
       "en": "Designed for social science and economics with econometrics, qualitative coding, and writing workflows."
     },
     "packageIds": [
@@ -355,7 +355,7 @@
       "en": "Life Science & Medical"
     },
     "description": {
-      "zh": "??????????????????????????",
+      "zh": "面向生命科学与医学研究，覆盖成像分析、统计建模与文献管理。",
       "en": "Supports life-science and medical research with imaging, statistical modeling, and references."
     },
     "packageIds": [
@@ -387,7 +387,7 @@
       "en": "Chemistry & Materials"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "面向化学与材料研究，覆盖分子建模、多物理场仿真与数据绘图。",
       "en": "For chemistry and materials research with molecular modeling, multiphysics simulation, and plotting."
     },
     "packageIds": [
@@ -421,7 +421,7 @@
       "en": "Physics & Astronomy"
     },
     "description": {
-      "zh": "??????????????????????????",
+      "zh": "面向物理与天文研究，覆盖数值计算、仿真可视化与科研绘图。",
       "en": "Covers computation, simulation visualization, and plotting for physics and astronomy."
     },
     "packageIds": [
@@ -453,7 +453,7 @@
       "en": "Earth Science & GIS"
     },
     "description": {
-      "zh": "?????? GIS ????????????????",
+      "zh": "面向地学与 GIS 流程，覆盖空间分析、制图与地理数据处理。",
       "en": "Targets earth science and GIS workflows for spatial analysis, mapping, and geodata processing."
     },
     "packageIds": [
@@ -481,7 +481,7 @@
       "en": "CS & AI Research"
     },
     "description": {
-      "zh": "?????? AI ??????????????????",
+      "zh": "面向计算机与 AI 科研，覆盖代码实验、数据处理与论文产出。",
       "en": "For CS and AI research with coding experiments, data workflows, and paper production."
     },
     "packageIds": [
@@ -507,7 +507,7 @@
       "en": "Electronics & Control"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "面向电子电气与控制方向，覆盖电路设计、仿真与实验分析。",
       "en": "Suited for electronics and control with circuit design, simulation, and experiment analysis."
     },
     "packageIds": [
@@ -537,7 +537,7 @@
       "en": "Mechanical & CFD Simulation"
     },
     "description": {
-      "zh": "???????????????CFD ??????????",
+      "zh": "面向机械与 CFD 研究，覆盖结构分析、流体仿真与后处理。",
       "en": "Built for mechanical and CFD research with structural analysis, flow simulation, and post-processing."
     },
     "packageIds": [
@@ -569,7 +569,7 @@
       "en": "All-Discipline Research Suite"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "整合跨学科科研软件，适合实验室统一环境与标准化装机。",
       "en": "Aggregates cross-discipline research software for lab-wide standardized environment setup."
     },
     "packageIds": [
@@ -629,7 +629,7 @@
       "en": "Clinical Medical Research"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "面向临床研究流程，覆盖统计分析、图表输出与学术写作。",
       "en": "Covers clinical research workflows for statistics, charting, and academic writing."
     },
     "packageIds": [
@@ -656,7 +656,7 @@
       "en": "Pharmacy & Pharmacology"
     },
     "description": {
-      "zh": "????????????????????????",
+      "zh": "面向药学与药理研究，覆盖化学分析、建模仿真与结果呈现。",
       "en": "Targets pharmacy and pharmacology with chemical analysis, modeling, and result presentation."
     },
     "packageIds": [
@@ -684,7 +684,7 @@
       "en": "Psychology & Behavioral Science"
     },
     "description": {
-      "zh": "????????????????????????",
+      "zh": "面向心理与行为科学，覆盖量化统计与质性分析。",
       "en": "Supports psychology and behavioral studies with quantitative and qualitative analysis."
     },
     "packageIds": [
@@ -713,7 +713,7 @@
       "en": "Finance & Econometrics"
     },
     "description": {
-      "zh": "??????????????????????",
+      "zh": "面向金融与计量经济研究，覆盖时间序列建模与量化分析。",
       "en": "Covers finance/econometrics workflows including time-series modeling and quant analysis."
     },
     "packageIds": [
@@ -742,7 +742,7 @@
       "en": "Civil & Geotechnical Engineering"
     },
     "description": {
-      "zh": "????????????????????????",
+      "zh": "面向土木与岩土工程，覆盖结构仿真、空间分析与工程计算。",
       "en": "For civil and geotechnical research with structural simulation, geospatial analysis, and engineering computing."
     },
     "packageIds": [
@@ -772,7 +772,7 @@
       "en": "Aerospace Research"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "面向航空航天场景，覆盖 CFD、多物理场分析与科学可视化。",
       "en": "For aerospace use cases with CFD, multiphysics analysis, and scientific visualization."
     },
     "packageIds": [
@@ -801,7 +801,7 @@
       "en": "Humanities & Communication Research"
     },
     "description": {
-      "zh": "?????????????????????????",
+      "zh": "面向人文与传播研究，覆盖文献管理、质性编码与学术写作。",
       "en": "Designed for humanities and communication studies with references, qualitative coding, and writing."
     },
     "packageIds": [
@@ -828,7 +828,7 @@
       "en": "Bioinformatics & Computational Biology"
     },
     "description": {
-      "zh": "????????????????????????",
+      "zh": "面向生物信息学流程，覆盖组学分析、网络可视化与可复现计算。",
       "en": "For bioinformatics workflows with omics analysis, network visualization, and reproducible computing."
     },
     "packageIds": [
