@@ -848,5 +848,666 @@
       "fiji-imagej",
       "graphpad-prism"
     ]
+  },
+  {
+    "id": "industry-office-admin",
+    "name": {
+      "zh": "政企办公与行政",
+      "en": "Corporate Office & Admin"
+    },
+    "description": {
+      "zh": "面向行政与综合办公岗位，覆盖文档处理、协同沟通、文件检索和系统维护。",
+      "en": "For office and admin roles, covering collaboration, file search, document handling, and system upkeep."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "sevenzip",
+      "everything",
+      "quicklook",
+      "sumatrapdf",
+      "powertoys",
+      "ditto",
+      "sharex"
+    ]
+  },
+  {
+    "id": "industry-education-campus",
+    "name": {
+      "zh": "教育与校园教学",
+      "en": "Education & Campus Teaching"
+    },
+    "description": {
+      "zh": "面向教师与教务场景，覆盖课件制作、文献管理、课堂协作与基础数据分析。",
+      "en": "For teaching and campus workflows with courseware, references, collaboration, and basic analytics."
+    },
+    "packageIds": [
+      "google-chrome",
+      "vscode",
+      "python311",
+      "zotero",
+      "jabref",
+      "miktex",
+      "texstudio",
+      "pandoc",
+      "quarto",
+      "obs-studio",
+      "sumatrapdf",
+      "wechat",
+      "dingtalk"
+    ]
+  },
+  {
+    "id": "industry-healthcare-clinic",
+    "name": {
+      "zh": "医疗与临床工作站",
+      "en": "Healthcare & Clinical Workstation"
+    },
+    "description": {
+      "zh": "面向临床与医学研究场景，覆盖统计分析、图表输出、影像处理与规范文档。",
+      "en": "For clinical and medical teams with statistics, charting, imaging, and compliant documentation."
+    },
+    "packageIds": [
+      "google-chrome",
+      "python311",
+      "r-project",
+      "rstudio",
+      "spss",
+      "graphpad-prism",
+      "fiji-imagej",
+      "zotero",
+      "endnote",
+      "sumatrapdf",
+      "sevenzip"
+    ]
+  },
+  {
+    "id": "industry-finance-operations",
+    "name": {
+      "zh": "金融与运营分析",
+      "en": "Finance & Operations Analytics"
+    },
+    "description": {
+      "zh": "面向金融与运营团队，覆盖计量分析、数据建模、报表管理和数据库连接。",
+      "en": "For finance and ops teams with econometrics, modeling, reporting, and database access."
+    },
+    "packageIds": [
+      "google-chrome",
+      "python311",
+      "anaconda",
+      "r-project",
+      "rstudio",
+      "stata",
+      "eviews",
+      "sas",
+      "dbeaver-community",
+      "powertoys",
+      "everything"
+    ]
+  },
+  {
+    "id": "industry-ecommerce-growth",
+    "name": {
+      "zh": "电商与增长运营",
+      "en": "E-commerce & Growth Operations"
+    },
+    "description": {
+      "zh": "面向电商和增长岗位，覆盖素材处理、运营协同、抓图录屏与效率自动化。",
+      "en": "For e-commerce growth roles with creative assets, team comms, capture tools, and productivity utilities."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "obs-studio",
+      "sharex",
+      "gimp3",
+      "inkscape",
+      "ffmpeg",
+      "powertoys",
+      "everything",
+      "quicklook"
+    ]
+  },
+  {
+    "id": "industry-manufacturing-engineering",
+    "name": {
+      "zh": "制造与工程仿真",
+      "en": "Manufacturing & Engineering Simulation"
+    },
+    "description": {
+      "zh": "面向制造与工程研发，覆盖仿真、可视化、电气设计与科研文档协作。",
+      "en": "For manufacturing and engineering R&D with simulation, visualization, electronics, and research docs."
+    },
+    "packageIds": [
+      "ansys",
+      "abaqus",
+      "comsol",
+      "openfoam",
+      "paraview",
+      "matlab",
+      "kicad",
+      "ltspice",
+      "labview",
+      "zotero",
+      "texstudio",
+      "miktex"
+    ]
+  },
+  {
+    "id": "industry-architecture-design",
+    "name": {
+      "zh": "建筑与数字设计",
+      "en": "Architecture & Digital Design"
+    },
+    "description": {
+      "zh": "面向建筑设计与可视化，覆盖建模渲染、图像处理、排版输出和空间分析。",
+      "en": "For architecture and design visualization with modeling, image editing, publishing, and geospatial analysis."
+    },
+    "packageIds": [
+      "blender",
+      "adobe-creative-cloud",
+      "gimp3",
+      "inkscape",
+      "ffmpeg",
+      "qgis",
+      "arcgis-pro",
+      "sumatrapdf",
+      "sevenzip"
+    ]
+  },
+  {
+    "id": "industry-media-studio",
+    "name": {
+      "zh": "媒体与直播工作室",
+      "en": "Media & Streaming Studio"
+    },
+    "description": {
+      "zh": "面向新媒体制作与直播，覆盖采集推流、后期剪辑、音频处理与转码发布。",
+      "en": "For media production and live streaming with capture, editing, audio processing, and transcoding."
+    },
+    "packageIds": [
+      "obs-studio",
+      "davinci-resolve",
+      "adobe-creative-cloud",
+      "audacity",
+      "reaper",
+      "ffmpeg",
+      "handbrake",
+      "sharex",
+      "everything"
+    ]
+  },
+  {
+    "id": "industry-software-delivery",
+    "name": {
+      "zh": "软件研发与交付",
+      "en": "Software Engineering Delivery"
+    },
+    "description": {
+      "zh": "面向研发团队与交付场景，覆盖代码开发、环境构建、数据库联调与运维效率工具。",
+      "en": "For software delivery teams with coding, environment setup, database tooling, and ops productivity."
+    },
+    "packageIds": [
+      "google-chrome",
+      "vscode",
+      "git",
+      "node-lts",
+      "python311",
+      "dbeaver-community",
+      "powertoys",
+      "everything",
+      "ripgrep",
+      "fd-find",
+      "rclone",
+      "winmerge"
+    ]
+  },
+  {
+    "id": "industry-cross-discipline-lab",
+    "name": {
+      "zh": "跨学科实验室标准包",
+      "en": "Cross-Discipline Lab Standard"
+    },
+    "description": {
+      "zh": "面向高校/研究院共享实验室，覆盖统计、文献、仿真、可视化与可复现写作流程。",
+      "en": "For shared research labs with statistics, references, simulation, visualization, and reproducible writing."
+    },
+    "packageIds": [
+      "python311",
+      "anaconda",
+      "r-project",
+      "rstudio",
+      "julia",
+      "zotero",
+      "jabref",
+      "miktex",
+      "texstudio",
+      "pandoc",
+      "quarto",
+      "graphviz",
+      "paraview"
+    ]
+  },
+  {
+    "id": "industry-legal-compliance",
+    "name": {
+      "zh": "法务与合规治理",
+      "en": "Legal & Compliance Operations"
+    },
+    "description": {
+      "zh": "面向法务与合规团队，覆盖法规检索、合同文档管理、审阅协同和证据归档。",
+      "en": "For legal and compliance teams with regulation lookup, contract docs, review workflows, and evidence archiving."
+    },
+    "packageIds": [
+      "google-chrome",
+      "sumatrapdf",
+      "jabref",
+      "zotero",
+      "pandoc",
+      "quarto",
+      "dingtalk",
+      "wecom",
+      "everything",
+      "winmerge"
+    ]
+  },
+  {
+    "id": "industry-government-public-service",
+    "name": {
+      "zh": "政务与公共服务",
+      "en": "Government & Public Service"
+    },
+    "description": {
+      "zh": "面向政务和公共服务窗口，覆盖办公协同、文件检索、文档处理与系统维护。",
+      "en": "For government/public-service operations with collaboration, document handling, search, and system maintenance."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "sevenzip",
+      "everything",
+      "sumatrapdf",
+      "quicklook",
+      "powertoys",
+      "process-explorer"
+    ]
+  },
+  {
+    "id": "industry-it-ops-sre",
+    "name": {
+      "zh": "IT 运维与 SRE",
+      "en": "IT Operations & SRE"
+    },
+    "description": {
+      "zh": "面向运维与 SRE 场景，覆盖日志检索、自动化脚本、资源诊断与同步备份能力。",
+      "en": "For IT operations and SRE with log search, automation scripting, diagnostics, and sync/backup tooling."
+    },
+    "packageIds": [
+      "vscode",
+      "git",
+      "python311",
+      "ripgrep",
+      "fd-find",
+      "rclone",
+      "syncthing",
+      "synctrayzor",
+      "process-explorer",
+      "crystaldiskinfo",
+      "powertoys"
+    ]
+  },
+  {
+    "id": "industry-cybersecurity",
+    "name": {
+      "zh": "网络安全与攻防研究",
+      "en": "Cybersecurity & Security Research"
+    },
+    "description": {
+      "zh": "面向网络安全团队，覆盖分析脚本、数据归档、日志检索、流量抓取与报告输出。",
+      "en": "For security teams with analysis scripts, data archiving, log search, traffic capture support, and reporting."
+    },
+    "packageIds": [
+      "google-chrome",
+      "python311",
+      "anaconda",
+      "vscode",
+      "git",
+      "ripgrep",
+      "fd-find",
+      "everything-cli",
+      "process-explorer",
+      "rclone",
+      "quarto"
+    ]
+  },
+  {
+    "id": "industry-game-development",
+    "name": {
+      "zh": "游戏开发与内容生产",
+      "en": "Game Development & Content Production"
+    },
+    "description": {
+      "zh": "面向游戏研发与宣发协作，覆盖代码开发、素材制作、音视频处理与性能排查。",
+      "en": "For game dev and publishing pipelines with coding, assets, media processing, and performance diagnostics."
+    },
+    "packageIds": [
+      "vscode",
+      "git",
+      "node-lts",
+      "python311",
+      "blender",
+      "gimp3",
+      "inkscape",
+      "ffmpeg",
+      "obs-studio",
+      "process-explorer",
+      "directx-enduser-runtime"
+    ]
+  },
+  {
+    "id": "industry-data-platform",
+    "name": {
+      "zh": "数据平台与 BI",
+      "en": "Data Platform & BI"
+    },
+    "description": {
+      "zh": "面向数据平台与 BI 团队，覆盖数据库联调、脚本分析、可复现报告与数据可视化流程。",
+      "en": "For data platform and BI teams with database tooling, scripting, reproducible reports, and visualization workflows."
+    },
+    "packageIds": [
+      "python311",
+      "anaconda",
+      "r-project",
+      "rstudio",
+      "julia",
+      "dbeaver-community",
+      "quarto",
+      "pandoc",
+      "graphviz",
+      "vscode",
+      "git"
+    ]
+  },
+  {
+    "id": "industry-audio-podcast",
+    "name": {
+      "zh": "音频节目与播客制作",
+      "en": "Audio Program & Podcast Studio"
+    },
+    "description": {
+      "zh": "面向播客与音频节目团队，覆盖录音、混音、转码、素材管理与发布流程。",
+      "en": "For podcast/audio teams with recording, mixing, transcoding, asset handling, and publication workflows."
+    },
+    "packageIds": [
+      "audacity",
+      "reaper",
+      "lmms",
+      "musescore",
+      "ffmpeg",
+      "handbrake",
+      "obs-studio",
+      "sumatrapdf",
+      "everything"
+    ]
+  },
+  {
+    "id": "industry-design-print",
+    "name": {
+      "zh": "平面设计与出版印刷",
+      "en": "Graphic Design & Publishing"
+    },
+    "description": {
+      "zh": "面向平面设计与出版流程，覆盖矢量/位图处理、排版导出、素材管理和文档预览。",
+      "en": "For graphic design and publishing with vector/raster editing, export workflows, asset management, and preview."
+    },
+    "packageIds": [
+      "adobe-creative-cloud",
+      "gimp3",
+      "inkscape",
+      "pandoc",
+      "quarto",
+      "sumatrapdf",
+      "quicklook",
+      "sevenzip",
+      "sharex"
+    ]
+  },
+  {
+    "id": "industry-logistics-supply-chain",
+    "name": {
+      "zh": "物流与供应链运营",
+      "en": "Logistics & Supply Chain"
+    },
+    "description": {
+      "zh": "面向物流与供应链团队，覆盖协同沟通、数据跟踪、报表分析与文档归档流程。",
+      "en": "For logistics and supply-chain teams with collaboration, tracking, reporting, and document archival workflows."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "python311",
+      "dbeaver-community",
+      "quarto",
+      "everything",
+      "sevenzip",
+      "sumatrapdf",
+      "sharex"
+    ]
+  },
+  {
+    "id": "industry-construction-project",
+    "name": {
+      "zh": "工程建设与项目交付",
+      "en": "Construction Project Delivery"
+    },
+    "description": {
+      "zh": "面向工程建设项目团队，覆盖图纸预览、进度协同、资料归档和现场问题记录。",
+      "en": "For construction project teams with drawing preview, progress collaboration, document archiving, and issue logging."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "dingtalk",
+      "sumatrapdf",
+      "quicklook",
+      "sharex",
+      "everything",
+      "sevenzip",
+      "process-explorer",
+      "powertoys"
+    ]
+  },
+  {
+    "id": "industry-hotel-retail-service",
+    "name": {
+      "zh": "酒店与零售服务",
+      "en": "Hotel & Retail Service"
+    },
+    "description": {
+      "zh": "面向酒店与零售门店运营，覆盖客服沟通、巡检记录、系统维护和报表汇总。",
+      "en": "For hotel and retail operations with customer communication, inspection records, maintenance, and report summaries."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "sumatrapdf",
+      "quicklook",
+      "sharex",
+      "everything",
+      "process-explorer",
+      "crystaldiskinfo"
+    ]
+  },
+  {
+    "id": "industry-energy-utilities",
+    "name": {
+      "zh": "能源与公共设施",
+      "en": "Energy & Utilities"
+    },
+    "description": {
+      "zh": "面向能源与公共设施运维，覆盖监控分析、日志检索、巡检报表和应急排障支持。",
+      "en": "For energy and utility operations with monitoring analysis, log search, inspection reporting, and troubleshooting support."
+    },
+    "packageIds": [
+      "python311",
+      "vscode",
+      "git",
+      "r-project",
+      "rstudio",
+      "quarto",
+      "graphviz",
+      "everything-cli",
+      "process-explorer",
+      "crystaldiskmark",
+      "powertoys"
+    ]
+  },
+  {
+    "id": "industry-pharma-biotech",
+    "name": {
+      "zh": "医药与生物技术",
+      "en": "Pharma & Biotechnology"
+    },
+    "description": {
+      "zh": "面向医药和生物技术团队，覆盖文献追踪、数据分析、实验记录与合规文档管理。",
+      "en": "For pharma and biotech teams with literature tracking, analytics, experiment records, and compliance documentation."
+    },
+    "packageIds": [
+      "google-chrome",
+      "python311",
+      "anaconda",
+      "r-project",
+      "rstudio",
+      "zotero",
+      "jabref",
+      "quarto",
+      "sumatrapdf",
+      "everything"
+    ]
+  },
+  {
+    "id": "industry-agriculture-food",
+    "name": {
+      "zh": "农业与食品生产",
+      "en": "Agriculture & Food Production"
+    },
+    "description": {
+      "zh": "面向农业与食品企业，覆盖巡检记录、质量追踪、报表分析与协同沟通流程。",
+      "en": "For agriculture and food-production teams with inspection records, quality tracking, reporting, and collaboration."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "python311",
+      "quarto",
+      "sumatrapdf",
+      "sharex",
+      "everything",
+      "sevenzip"
+    ]
+  },
+  {
+    "id": "industry-insurance-service",
+    "name": {
+      "zh": "保险与理赔服务",
+      "en": "Insurance & Claims Service"
+    },
+    "description": {
+      "zh": "面向保险和理赔团队，覆盖客户沟通、证据归档、文档处理与风控分析辅助。",
+      "en": "For insurance and claims teams with customer communication, evidence archiving, documentation, and risk-analysis support."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "sumatrapdf",
+      "sharex",
+      "quicklook",
+      "everything",
+      "winmerge",
+      "quarto"
+    ]
+  },
+  {
+    "id": "industry-human-resources",
+    "name": {
+      "zh": "人力资源与组织运营",
+      "en": "Human Resources & Org Ops"
+    },
+    "description": {
+      "zh": "面向人力资源与组织运营，覆盖招聘协作、文档归档、流程追踪与培训资料管理。",
+      "en": "For HR and organizational operations with hiring collaboration, document archiving, workflow tracking, and training assets."
+    },
+    "packageIds": [
+      "google-chrome",
+      "wechat",
+      "wecom",
+      "dingtalk",
+      "sumatrapdf",
+      "quicklook",
+      "sharex",
+      "everything",
+      "powertoys",
+      "sevenzip"
+    ]
+  },
+  {
+    "id": "industry-aerospace-defense",
+    "name": {
+      "zh": "航空航天与高可靠工程",
+      "en": "Aerospace & High-Reliability Engineering"
+    },
+    "description": {
+      "zh": "面向航空航天与高可靠工程团队，覆盖建模仿真、可追溯文档、诊断分析与协同交付。",
+      "en": "For aerospace and high-reliability engineering with modeling/simulation, traceable docs, diagnostics, and collaborative delivery."
+    },
+    "packageIds": [
+      "vscode",
+      "git",
+      "python311",
+      "julia",
+      "graphviz",
+      "paraview",
+      "quarto",
+      "sumatrapdf",
+      "process-explorer",
+      "everything-cli"
+    ]
+  },
+  {
+    "id": "industry-semiconductor-hardware",
+    "name": {
+      "zh": "半导体与硬件研发",
+      "en": "Semiconductor & Hardware RnD"
+    },
+    "description": {
+      "zh": "面向半导体与硬件研发，覆盖电路设计、仿真验证、文档追踪和实验数据整理。",
+      "en": "For semiconductor and hardware R&D with circuit design, simulation verification, documentation tracking, and experiment data handling."
+    },
+    "packageIds": [
+      "vscode",
+      "git",
+      "python311",
+      "kicad",
+      "ltspice",
+      "graphviz",
+      "quarto",
+      "sumatrapdf",
+      "everything",
+      "process-explorer"
+    ]
   }
 ]

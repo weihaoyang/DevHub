@@ -13,7 +13,8 @@
     "build": "npm run build:renderer && npm run build:main",
     "build:renderer": "vite build",
     "build:main": "tsup --config tsup.config.ts",
-    "dist": "npm run build && electron-builder --config build/electron-builder.yml",
+    "release:gate": "npm run typecheck && npm run test && node scripts/check-release-readiness.cjs",
+    "dist": "node scripts/build-dist.cjs",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

@@ -1,0 +1,99 @@
+{
+  "version": "2026-05-26",
+  "currency": "CNY",
+  "locale": "zh-CN",
+  "trial": {
+    "enabled": true,
+    "days": 14,
+    "appliesToPlans": ["pro", "tech", "business"],
+    "limitsDuringTrial": {
+      "maxDevices": 3,
+      "watermarkAuditReport": true
+    }
+  },
+  "plans": [
+    {
+      "id": "free",
+      "name": {
+        "zh": "免费版",
+        "en": "Free"
+      },
+      "billing": {
+        "mode": "free"
+      },
+      "limits": {
+        "maxDevices": 1,
+        "monthlyActiveDevicesSoftCap": 5
+      },
+      "ads": {
+        "enabled": true,
+        "slots": ["mainSidebarSponsor", "postInstallRecommend"],
+        "suppressBySession": true
+      },
+      "entitlementTier": "free"
+    },
+    {
+      "id": "pro",
+      "name": {
+        "zh": "Pro 个人版",
+        "en": "Pro Personal"
+      },
+      "billing": {
+        "mode": "annual",
+        "price": 199
+      },
+      "limits": {
+        "maxDevices": 3
+      },
+      "ads": {
+        "enabled": false
+      },
+      "entitlementTier": "pro"
+    },
+    {
+      "id": "tech",
+      "name": {
+        "zh": "Tech 维修版",
+        "en": "Tech Service"
+      },
+      "billing": {
+        "mode": "annual",
+        "price": 899
+      },
+      "limits": {
+        "monthlyRollingDeviceQuota": 200
+      },
+      "ads": {
+        "enabled": false
+      },
+      "entitlementTier": "tech"
+    },
+    {
+      "id": "business",
+      "name": {
+        "zh": "Business 企业版",
+        "en": "Business"
+      },
+      "billing": {
+        "mode": "annual",
+        "pricePerDevice": 39,
+        "minimumAnnualFee": 6000
+      },
+      "limits": {
+        "maxDevices": 10000
+      },
+      "ads": {
+        "enabled": false
+      },
+      "entitlementTier": "business"
+    }
+  ],
+  "guardrails": {
+    "allowMonthlySubscription": false,
+    "refundWindowDays": 7,
+    "autoUpgrade": {
+      "enabled": true,
+      "trigger": "device_limit_exceeded"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 version: 0.1.0
 files:
   - url: DevHub-Setup-x64.exe
-    sha512: A4rWayi9RmIEXeFadWBUvQNFTbN7n5I5yxcB4t29l/74RNqIYw3uXVaoY3/aY3OrHMCv0l9KeFuFdhDcYFqCzQ==
-    size: 86713322
+    sha512: YTGRe5eaXZKTQ+Tht1eUk6mEi+RX6h5uulumef9Z08LqjOUC3kltWs4W8Y7EQgEVaYQwe1+tLZvKaEBlpPWkfw==
+    size: 86751985
 path: DevHub-Setup-x64.exe
-sha512: A4rWayi9RmIEXeFadWBUvQNFTbN7n5I5yxcB4t29l/74RNqIYw3uXVaoY3/aY3OrHMCv0l9KeFuFdhDcYFqCzQ==
-releaseDate: '2026-02-19T11:32:40.475Z'
+sha512: YTGRe5eaXZKTQ+Tht1eUk6mEi+RX6h5uulumef9Z08LqjOUC3kltWs4W8Y7EQgEVaYQwe1+tLZvKaEBlpPWkfw==
+releaseDate: '2026-05-25T11:51:32.331Z'

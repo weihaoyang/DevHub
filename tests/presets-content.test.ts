@@ -46,4 +46,55 @@ describe("preset content quality", () => {
       }
     }
   });
+
+  it("includes launch-ready industry presets with valid package references", () => {
+    const catalog = validateCatalog(loadJsonFile("software-catalog.json"));
+    const catalogIds = new Set(catalog.map((item) => item.id));
+    const presets = loadJsonFile<PresetItem[]>("presets.json");
+    const presetById = new Map(presets.map((preset) => [preset.id, preset]));
+    const requiredIndustryPresets = [
+      "industry-office-admin",
+      "industry-education-campus",
+      "industry-healthcare-clinic",
+      "industry-finance-operations",
+      "industry-ecommerce-growth",
+      "industry-manufacturing-engineering",
+      "industry-architecture-design",
+      "industry-media-studio",
+      "industry-software-delivery",
+      "industry-cross-discipline-lab",
+      "industry-legal-compliance",
+      "industry-government-public-service",
+      "industry-it-ops-sre",
+      "industry-cybersecurity",
+      "industry-game-development",
+      "industry-data-platform",
+      "industry-audio-podcast",
+      "industry-design-print",
+      "industry-logistics-supply-chain",
+      "industry-construction-project",
+      "industry-hotel-retail-service",
+      "industry-energy-utilities",
+      "industry-pharma-biotech",
+      "industry-agriculture-food",
+      "industry-insurance-service",
+      "industry-human-resources",
+      "industry-aerospace-defense",
+      "industry-semiconductor-hardware"
+    ];
+
+    for (const presetId of requiredIndustryPresets) {
+      const preset = presetById.get(presetId);
+      expect(preset).toBeTruthy();
+      expect(preset?.description?.zh?.trim().length ?? 0).toBeGreaterThan(0);
+      expect(preset?.description?.en?.trim().length ?? 0).toBeGreaterThan(0);
+      expect(preset?.packageIds.length ?? 0).toBeGreaterThanOrEqual(8);
+      for (const packageId of preset?.packageIds ?? []) {
+        expect(catalogIds.has(packageId)).toBe(true);
+      }
+    }
+
+    const industryPresets = presets.filter((preset) => preset.id.startsWith("industry-"));
+    expect(industryPresets.length).toBeGreaterThanOrEqual(28);
+  });
 });

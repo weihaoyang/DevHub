@@ -1,0 +1,79 @@
+{
+  "version": "2026-05-26",
+  "tiers": [
+    {
+      "id": "free",
+      "features": {
+        "removeAds": false,
+        "industryPresetPack": "core",
+        "batchRetryAdvanced": false,
+        "silentInstallBatch": false,
+        "offlineCachePack": false,
+        "teamPolicyTemplate": false,
+        "complianceAuditReport": "basic",
+        "prioritySupport": false
+      }
+    },
+    {
+      "id": "pro",
+      "features": {
+        "removeAds": true,
+        "industryPresetPack": "full",
+        "batchRetryAdvanced": true,
+        "silentInstallBatch": true,
+        "offlineCachePack": false,
+        "teamPolicyTemplate": false,
+        "complianceAuditReport": "standard",
+        "prioritySupport": false
+      }
+    },
+    {
+      "id": "tech",
+      "features": {
+        "removeAds": true,
+        "industryPresetPack": "full",
+        "batchRetryAdvanced": true,
+        "silentInstallBatch": true,
+        "offlineCachePack": true,
+        "teamPolicyTemplate": true,
+        "complianceAuditReport": "standard",
+        "prioritySupport": true
+      }
+    },
+    {
+      "id": "business",
+      "features": {
+        "removeAds": true,
+        "industryPresetPack": "full",
+        "batchRetryAdvanced": true,
+        "silentInstallBatch": true,
+        "offlineCachePack": true,
+        "teamPolicyTemplate": true,
+        "complianceAuditReport": "advanced",
+        "prioritySupport": true
+      }
+    }
+  ],
+  "adSlots": [
+    {
+      "id": "mainSidebarSponsor",
+      "name": {
+        "zh": "右侧赞助工具推荐",
+        "en": "Sidebar Sponsored Tools"
+      },
+      "placement": "main-right-column-bottom",
+      "maxCards": 1,
+      "requiresDisclosure": true
+    },
+    {
+      "id": "postInstallRecommend",
+      "name": {
+        "zh": "安装完成延伸推荐",
+        "en": "Post-install Recommendations"
+      },
+      "placement": "post-install-footer",
+      "maxCards": 2,
+      "requiresDisclosure": true
+    }
+  ]
+}

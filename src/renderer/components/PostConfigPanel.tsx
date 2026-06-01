@@ -28,7 +28,10 @@ export function PostConfigPanel({ language, onRun }: Props) {
 
   return (
     <section className="card post-config">
-      <h2>{translate(language, "panel.postConfig")}</h2>
+      <div className="card-title-row">
+        <h2>{translate(language, "panel.postConfig")}</h2>
+        <span className="muted">{running ? (language === "zh-CN" ? "执行中" : "Running") : "-"}</span>
+      </div>
       <label className="field">
         <span>{translate(language, "post.gitName")}</span>
         <input type="text" value={gitName} onChange={(e) => setGitName(e.target.value)} />
@@ -45,7 +48,7 @@ export function PostConfigPanel({ language, onRun }: Props) {
       <div className="post-result">
         <strong>{translate(language, "post.runResult")}</strong>
         {result ? (
-          <ul>
+          <ul className="post-result-list">
             {result.steps.map((step) => (
               <li key={step.name}>
                 [{step.success ? "OK" : "FAIL"}] {step.name}: {step.message}

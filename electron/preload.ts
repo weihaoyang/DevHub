@@ -1,5 +1,5 @@
 import { contextBridge, ipcRenderer } from "electron";
-import type { DevHubApi, DevHubSettings, InstallEvent, PostConfigOptions, StartInstallOptions } from "../src/shared/types";
+import type { DevHubApi, DevHubSettings, InstallEvent, LegalDocKey, PostConfigOptions, StartInstallOptions } from "../src/shared/types";
 
 const api: DevHubApi = {
   getCatalog: () => ipcRenderer.invoke("devhub:get-catalog"),
@@ -17,8 +17,7 @@ const api: DevHubApi = {
   runPostConfig: (options: PostConfigOptions) => ipcRenderer.invoke("devhub:run-post-config", options),
   runRuntimeDllRepair: () => ipcRenderer.invoke("devhub:run-runtime-dll-repair"),
   openExternal: (url: string) => ipcRenderer.invoke("devhub:open-external", url),
-  openLegalDoc: (docKey: "terms" | "privacy" | "thirdParty" | "disclaimer") =>
-    ipcRenderer.invoke("devhub:open-legal-doc", docKey),
+  getLegalDoc: (docKey: LegalDocKey) => ipcRenderer.invoke("devhub:get-legal-doc", docKey),
   onInstallEvent: (callback: (event: InstallEvent) => void) => {
     const listener = (_event: Electron.IpcRendererEvent, data: InstallEvent) => callback(data);
     ipcRenderer.on("devhub:install-event", listener);

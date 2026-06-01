@@ -5,8 +5,11 @@ import type {
   InstallEvent,
   InstallPreset,
   InstallSummary,
+  LegalDocContent,
+  LegalDocKey,
   Language,
   MonetizationConfig,
+  MonetizationSponsorCard,
   PostConfigOptions,
   PostConfigResult,
   PreflightResult,
@@ -33,27 +36,30 @@ export default function App() {
   const [showProxy, setShowProxy] = useState(false);
   const [preflight, setPreflight] = useState<PreflightResult | null>(null);
   const [logPath, setLogPath] = useState("");
-  const [monetization, setMonetization] = useState<MonetizationConfig | null>(null);
   const [complianceConfig, setComplianceConfig] = useState<ComplianceConfig | null>(null);
+  const [monetization, setMonetization] = useState<MonetizationConfig | null>(null);
   const [sessionComplianceAccepted, setSessionComplianceAccepted] = useState(false);
+  const [showAllIndustryPresets, setShowAllIndustryPresets] = useState(false);
+  const [legalDoc, setLegalDoc] = useState<LegalDocContent | null>(null);
+  const [dismissedAdSlots, setDismissedAdSlots] = useState<Set<string>>(new Set());
 
   const language: Language = settings?.language ?? "zh-CN";
   const t = (key: string, vars?: Record<string, string | number>) => translate(language, key, vars);
 
   useEffect(() => {
     const initialize = async () => {
-      const [catalogData, presetsData, settingsData, complianceData] = await Promise.all([
+      const [catalogData, presetsData, settingsData, complianceData, monetizationData] = await Promise.all([
         window.devhub.getCatalog(),
         window.devhub.getPresets(),
         window.devhub.getSettings(),
-        window.devhub.getComplianceConfig()
+        window.devhub.getComplianceConfig(),
+        window.devhub.getMonetization()
       ]);
-      const monetizationData = await window.devhub.getMonetization();
       setCatalog(catalogData);
       setPresets(presetsData);
       setSettings(settingsData);
-      setMonetization(monetizationData);
       setComplianceConfig(complianceData);
+      setMonetization(monetizationData);
       const defaultSelected = new Set(catalogData.filter((item) => item.enabledByDefault).map((item) => item.id));
       setSelected(defaultSelected);
       const defaultPreset = presetsData.find((preset) => preset.id === "dev-standard") ?? presetsData[0];
@@ -96,11 +102,36 @@ export default function App() {
   }, [settings]);
 
   const failedCount = failedIds.length;
+  const selectedCount = selected.size;
+  const totalCount = catalog.length;
+  const industryPresets = useMemo(() => presets.filter((preset) => preset.id.startsWith("industry-")), [presets]);
+  const visibleIndustryPresets = showAllIndustryPresets ? industryPresets : industryPresets.slice(0, 6);
+  const industryCoverageText =
+    language === "zh-CN" ? `浅色毛玻璃界面 · 覆盖 ${industryPresets.length} 个行业方案` : `Light Glass UI · ${industryPresets.length} industry-ready scenarios`;
+
   const complianceAccepted =
     sessionComplianceAccepted &&
     Boolean(settings?.compliance.accepted) &&
     Boolean(complianceConfig) &&
     settings?.compliance.consentVersion === complianceConfig?.consentVersion;
+  const adsEnabled = Boolean(monetization?.resolvedPlan.adsEnabled);
+  const tierLabel = monetization?.resolvedPlan.name ? (language === "zh-CN" ? monetization.resolvedPlan.name.zh : monetization.resolvedPlan.name.en) : "";
+  const mainSidebarCards = useMemo(() => {
+    if (!monetization || !adsEnabled || dismissedAdSlots.has("main-right-column-bottom")) {
+      return [];
+    }
+    return monetization.sponsorCards.filter((card) => card.placement === "main-right-column-bottom").slice(0, 1);
+  }, [adsEnabled, dismissedAdSlots, monetization]);
+  const postInstallCards = useMemo(() => {
+    if (!monetization || !adsEnabled || dismissedAdSlots.has("post-install-footer")) {
+      return [];
+    }
+    return monetization.sponsorCards.filter((card) => card.placement === "post-install-footer").slice(0, 2);
+  }, [adsEnabled, dismissedAdSlots, monetization]);
+
+  const applySummary = (summary: InstallSummary) => {
+    setFailedIds(summary.failedIds);
+  };
 
   const startInstall = async () => {
     if (!settings) return;
@@ -141,10 +172,6 @@ export default function App() {
     } finally {
       setRunning(false);
     }
-  };
-
-  const applySummary = (summary: InstallSummary) => {
-    setFailedIds(summary.failedIds);
   };
 
   const cancelInstall = async () => {
@@ -220,44 +247,54 @@ export default function App() {
     }
   };
 
-  const openLegalDoc = async (docKey: "terms" | "privacy" | "thirdParty" | "disclaimer") => {
+  const openLegalDoc = async (docKey: LegalDocKey) => {
     try {
-      await window.devhub.openLegalDoc(docKey);
+      const doc = await window.devhub.getLegalDoc(docKey);
+      setLegalDoc(doc);
     } catch (error) {
       setLogs((prev) => [...prev, `[${new Date().toISOString()}] open legal doc failed: ${String(error)}`]);
     }
   };
 
-  const openBuyMeACoffee = async () => {
-    if (!monetization?.enableBuyMeACoffee || !monetization.buyMeACoffeeUrl) {
-      return;
-    }
+  const openSponsorCard = async (card: MonetizationSponsorCard) => {
     try {
-      await window.devhub.openExternal(monetization.buyMeACoffeeUrl);
-      setLogs((prev) => [...prev, `[${new Date().toISOString()}] open external: ${monetization.buyMeACoffeeUrl}`]);
+      await window.devhub.openExternal(card.url);
+      setLogs((prev) => [...prev, `[${new Date().toISOString()}] sponsor-click ${card.id} ${card.url}`]);
     } catch (error) {
-      setLogs((prev) => [...prev, `[${new Date().toISOString()}] open external failed: ${String(error)}`]);
+      setLogs((prev) => [...prev, `[${new Date().toISOString()}] sponsor-open failed ${card.id}: ${String(error)}`]);
     }
   };
 
-  const applyPreset = () => {
-    const preset = presets.find((item) => item.id === selectedPresetId);
+  const dismissAdSlot = (placement: "main-right-column-bottom" | "post-install-footer") => {
+    setDismissedAdSlots((prev) => new Set([...prev, placement]));
+  };
+
+  const applyPresetById = (presetId: string) => {
+    const preset = presets.find((item) => item.id === presetId);
     if (!preset) {
       return;
     }
     const availableIds = new Set(catalog.map((item) => item.id));
     const nextSelected = new Set(preset.packageIds.filter((itemId) => availableIds.has(itemId)));
     setSelected(nextSelected);
-    setLogs((prev) => [
-      ...prev,
-      `[${new Date().toISOString()}] preset ${preset.id} applied, selected=${nextSelected.size}`
-    ]);
+    setLogs((prev) => [...prev, `[${new Date().toISOString()}] preset ${preset.id} applied, selected=${nextSelected.size}`]);
+  };
+
+  const applyPreset = () => {
+    if (!selectedPresetId) {
+      return;
+    }
+    applyPresetById(selectedPresetId);
   };
 
   const failedNames = useMemo(() => {
     const nameMap = new Map(catalog.map((item) => [item.id, language === "zh-CN" ? item.name.zh : item.name.en]));
     return failedIds.map((id) => nameMap.get(id) ?? id);
   }, [catalog, failedIds, language]);
+  const failedPreview =
+    failedNames.length <= 2
+      ? failedNames.join(", ")
+      : `${failedNames.slice(0, 2).join(", ")} +${failedNames.length - 2}`;
 
   if (!settings) {
     return <div className="loading">Loading...</div>;
@@ -266,53 +303,99 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="top-bar">
-        <div className="title">{t("app.title")}</div>
+        <div className="title-wrap">
+          <div className="title">{t("app.title")}</div>
+          <div className="title-sub">{industryCoverageText}</div>
+        </div>
         <div className="top-actions">
-          <label className="field-inline">
-            <span>{t("top.preset")}</span>
-            <select value={selectedPresetId} onChange={(e) => setSelectedPresetId(e.target.value)}>
-              <option value="">-</option>
-              {presets.map((preset) => (
-                <option key={preset.id} value={preset.id}>
-                  {language === "zh-CN" ? preset.name.zh : preset.name.en}
-                </option>
-              ))}
-            </select>
-          </label>
-          <button onClick={applyPreset} disabled={!selectedPresetId || running}>
-            {t("top.applyPreset")}
-          </button>
-          <label className="field-inline">
+          <label className="field-inline compact">
             <span>{t("top.language")}</span>
             <select value={language} onChange={(e) => changeLanguage(e.target.value as Language)}>
               <option value="zh-CN">中文</option>
               <option value="en-US">English</option>
             </select>
           </label>
-          <button onClick={runPreflight}>{t("top.preflight")}</button>
-          <button onClick={runRuntimeDllRepair} disabled={running || !complianceAccepted}>
+          <button className="secondary" onClick={runPreflight}>
+            {t("top.preflight")}
+          </button>
+          <button className="secondary" onClick={runRuntimeDllRepair} disabled={running || !complianceAccepted}>
             {t("top.runtimeRepair")}
           </button>
-          {monetization?.enableBuyMeACoffee && (
-            <button className="secondary" onClick={openBuyMeACoffee}>
-              {t("top.buyCoffee")}
-            </button>
-          )}
-          <button onClick={() => setShowProxy(true)}>{t("top.proxy")}</button>
+          <button className="secondary" onClick={() => setShowProxy(true)}>
+            {t("top.proxy")}
+          </button>
           <span className="compliance-chip">{complianceAccepted ? t("top.complianceOk") : t("top.compliancePending")}</span>
+          {tierLabel && <span className="tier-chip">{tierLabel}</span>}
         </div>
       </header>
 
       <main className="main-grid">
         <div className="left-col">
+          <section className="card scene-panel">
+            <div className="card-title-row">
+              <h2>{language === "zh-CN" ? "安装场景" : "Install Scenarios"}</h2>
+              <span className="muted">{selectedCount}/{totalCount}</span>
+            </div>
+            <div className="scene-controls">
+              <label className="field">
+                <span>{t("top.preset")}</span>
+                <select value={selectedPresetId} onChange={(e) => setSelectedPresetId(e.target.value)}>
+                  <option value="">-</option>
+                  {presets.map((preset) => (
+                    <option key={preset.id} value={preset.id}>
+                      {language === "zh-CN" ? preset.name.zh : preset.name.en}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <button className="primary-action" onClick={applyPreset} disabled={!selectedPresetId || running}>
+                {t("top.applyPreset")}
+              </button>
+            </div>
+            <div className="industry-preset-head">
+              <span className="muted">
+                {language === "zh-CN" ? `行业方案快捷选择（${industryPresets.length}）` : `Industry quick presets (${industryPresets.length})`}
+              </span>
+              {industryPresets.length > 6 && (
+                <button className="secondary industry-toggle" onClick={() => setShowAllIndustryPresets((prev) => !prev)} disabled={running}>
+                  {showAllIndustryPresets
+                    ? language === "zh-CN"
+                      ? "收起"
+                      : "Collapse"
+                    : language === "zh-CN"
+                      ? "展开全部"
+                      : "Expand all"}
+                </button>
+              )}
+            </div>
+            <div className={`industry-preset-wrap ${showAllIndustryPresets ? "expanded" : "collapsed"}`}>
+              <div className="industry-preset-list">
+                {visibleIndustryPresets.map((preset) => (
+                  <button
+                    key={preset.id}
+                    className={preset.id === selectedPresetId ? "secondary active" : "secondary"}
+                    disabled={running}
+                    onClick={() => {
+                      setSelectedPresetId(preset.id);
+                      applyPresetById(preset.id);
+                    }}
+                  >
+                    {language === "zh-CN" ? preset.name.zh : preset.name.en}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </section>
+
           <SoftwareTree language={language} catalog={catalog} selected={selected} onSelectedChange={setSelected} />
-          <PostConfigPanel language={language} onRun={runPostConfig} />
         </div>
 
         <div className="right-col">
           {preflight && (
             <section className="card preflight-box">
-              <h2>{t("preflight.result")}</h2>
+              <div className="card-title-row">
+                <h2>{t("preflight.result")}</h2>
+              </div>
               <div className="preflight-items">
                 <div>
                   {t("preflight.winget")}: {preflight.wingetAvailable ? t("preflight.ok") : t("preflight.fail")}
@@ -333,6 +416,26 @@ export default function App() {
           )}
 
           <ProgressPanel language={language} catalog={catalog} events={events} />
+          <PostConfigPanel language={language} onRun={runPostConfig} />
+          {mainSidebarCards.length > 0 && (
+            <section className="card sponsor-slot">
+              <div className="card-title-row">
+                <h2>{language === "zh-CN" ? "赞助推荐" : "Sponsored"}</h2>
+                <button className="secondary sponsor-dismiss" onClick={() => dismissAdSlot("main-right-column-bottom")}>
+                  {language === "zh-CN" ? "本次关闭" : "Hide this session"}
+                </button>
+              </div>
+              <div className="sponsor-list">
+                {mainSidebarCards.map((card) => (
+                  <button key={card.id} className="sponsor-card" onClick={() => openSponsorCard(card)}>
+                    <span className="sponsor-disclosure">{language === "zh-CN" ? card.disclosure.zh : card.disclosure.en}</span>
+                    <span className="sponsor-title">{language === "zh-CN" ? card.title.zh : card.title.en}</span>
+                    <span className="sponsor-desc">{language === "zh-CN" ? card.description.zh : card.description.en}</span>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
           <LogPanel language={language} logs={logs} logPath={logPath} />
         </div>
       </main>
@@ -340,22 +443,36 @@ export default function App() {
       <footer className="bottom-bar">
         <span className={running ? "status running" : "status idle"}>{running ? t("status.running") : t("status.idle")}</span>
         <span>{t("summary.failed", { count: failedCount })}</span>
-        <button onClick={startInstall} disabled={running || selected.size === 0 || !complianceAccepted}>
+        {failedCount > 0 && (
+          <span className="failed-inline" title={failedNames.join(", ")}>
+            {failedPreview}
+          </span>
+        )}
+        <button className="primary-action" onClick={startInstall} disabled={running || selected.size === 0 || !complianceAccepted}>
           {t("btn.install")}
         </button>
-        <button onClick={cancelInstall} disabled={!running}>
+        <button className="secondary" onClick={cancelInstall} disabled={!running}>
           {t("btn.cancel")}
         </button>
-        <button onClick={retryFailed} disabled={running || failedCount === 0 || !complianceAccepted}>
+        <button className="secondary" onClick={retryFailed} disabled={running || failedCount === 0 || !complianceAccepted}>
           {t("btn.retryFailed")}
         </button>
+        {postInstallCards.length > 0 && (
+          <div className="sponsor-inline-wrap">
+            <button className="secondary sponsor-dismiss" onClick={() => dismissAdSlot("post-install-footer")}>
+              {language === "zh-CN" ? "关闭推荐" : "Hide recommendations"}
+            </button>
+            <div className="sponsor-inline-list">
+              {postInstallCards.map((card) => (
+                <button key={card.id} className="sponsor-inline-card" onClick={() => openSponsorCard(card)}>
+                  <span className="sponsor-inline-disclosure">{language === "zh-CN" ? card.disclosure.zh : card.disclosure.en}</span>
+                  <span>{language === "zh-CN" ? card.title.zh : card.title.en}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </footer>
-
-      {failedNames.length > 0 && (
-        <div className="failed-summary">
-          <strong>{t("summary.failed", { count: failedNames.length })}</strong>: {failedNames.join(", ")}
-        </div>
-      )}
 
       {showProxy && <ProxyDialog language={language} value={settings.proxy} onSave={saveProxy} onClose={() => setShowProxy(false)} />}
       {!complianceAccepted && complianceConfig && (
@@ -365,7 +482,7 @@ export default function App() {
             <p>{t("compliance.body")}</p>
             <p className="muted">{t("compliance.sourcePolicy", { policy: complianceConfig.sourcePolicy })}</p>
             <p className="muted">{t("compliance.required")}</p>
-            <div className="actions">
+            <div className="modal-doc-actions">
               <button className="secondary" onClick={() => openLegalDoc("terms")}>
                 {t("btn.openTerms")}
               </button>
@@ -379,8 +496,21 @@ export default function App() {
                 {t("btn.openDisclaimer")}
               </button>
             </div>
-            <div className="actions">
+            <div className="modal-primary-action">
               <button onClick={acceptCompliance}>{t("btn.acceptCompliance")}</button>
+            </div>
+          </div>
+        </div>
+      )}
+      {legalDoc && (
+        <div className="modal-backdrop">
+          <div className="modal legal-modal">
+            <h3>{language === "zh-CN" ? `查看文档：${legalDoc.title}` : legalDoc.title}</h3>
+            <pre className="legal-content">{legalDoc.content}</pre>
+            <div className="modal-primary-action">
+              <button className="secondary" onClick={() => setLegalDoc(null)}>
+                {t("btn.close")}
+              </button>
             </div>
           </div>
         </div>

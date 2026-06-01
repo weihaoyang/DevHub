@@ -1,6 +1,6 @@
 import path from "node:path";
 import { spawn, spawnSync } from "node:child_process";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { app, BrowserWindow, dialog, ipcMain, shell } from "electron";
 import {
   assertAcceptedCurrentCompliance,
@@ -16,7 +16,7 @@ import { runPostConfiguration } from "../src/main/post-config";
 import { loadPresets } from "../src/main/preset-store";
 import { SettingsStore } from "../src/main/settings-store";
 import { runRuntimeDllRepairSteps } from "../src/main/system-repair";
-import type { ComplianceConfig, DevHubSettings, RuntimeDllRepairResult, StartInstallOptions } from "../src/shared/types";
+import type { ComplianceConfig, DevHubSettings, LegalDocContent, LegalDocKey, RuntimeDllRepairResult, StartInstallOptions } from "../src/shared/types";
 
 let mainWindow: BrowserWindow | null = null;
 
@@ -62,10 +62,10 @@ function relaunchAsAdmin(): void {
 function createMainWindow(): BrowserWindow {
   const preloadPath = path.join(__dirname, "preload.js");
   const win = new BrowserWindow({
-    width: 1400,
+    width: 1600,
     height: 900,
-    minWidth: 1180,
-    minHeight: 760,
+    minWidth: 1360,
+    minHeight: 768,
     backgroundColor: "#f2f4f8",
     webPreferences: {
       preload: preloadPath,
@@ -73,6 +73,7 @@ function createMainWindow(): BrowserWindow {
       nodeIntegration: false
     }
   });
+  win.setAspectRatio(16 / 9);
 
   const devServerUrl = process.env.VITE_DEV_SERVER_URL;
   if (devServerUrl) {
@@ -87,6 +88,9 @@ function createMainWindow(): BrowserWindow {
 }
 
 async function ensureAdminGate(): Promise<boolean> {
+  if (!app.isPackaged) {
+    return true;
+  }
   if (process.platform !== "win32") {
     return true;
   }
@@ -144,6 +148,14 @@ async function bootstrap(): Promise<void> {
       allowedHosts.add(host);
     } catch {
       logger.log(`Invalid buyMeACoffeeUrl: ${monetization.buyMeACoffeeUrl}`);
+    }
+  }
+  for (const card of monetization.sponsorCards) {
+    try {
+      const host = new URL(card.url).hostname.toLowerCase();
+      allowedHosts.add(host);
+    } catch {
+      logger.log(`Invalid sponsor card URL: ${card.id} -> ${card.url}`);
     }
   }
   const isExternalUrlAllowed = (url: string): boolean => {
@@ -246,35 +258,24 @@ async function bootstrap(): Promise<void> {
     }
     return safeOpenExternal(url);
   });
-  ipcMain.handle("devhub:open-legal-doc", async (_event, docKey: "terms" | "privacy" | "thirdParty" | "disclaimer") => {
+  ipcMain.handle("devhub:get-legal-doc", (_event, docKey: LegalDocKey): LegalDocContent => {
     const relativePath = compliance.legalDocs[docKey];
     const resolvedPath = resolveAppResource(relativePath);
     if (!resolvedPath) {
       throw new Error(`Legal document not found: ${docKey}`);
     }
-
-    let openPath = resolvedPath;
-    if (resolvedPath.includes(".asar")) {
-      const cacheDir = path.join(app.getPath("userData"), "legal-docs");
-      mkdirSync(cacheDir, { recursive: true });
-      const cachedPath = path.join(cacheDir, path.basename(relativePath));
-      const content = readFileSync(resolvedPath, "utf8");
-      writeFileSync(cachedPath, content, "utf8");
-      openPath = cachedPath;
-    }
-
-    const error = await shell.openPath(openPath);
-    if (error) {
-      if (process.platform === "win32") {
-        spawn("notepad.exe", [openPath], {
-          detached: true,
-          windowsHide: true,
-          stdio: "ignore"
-        }).unref();
-        return;
-      }
-      throw new Error(error);
-    }
+    const content = readFileSync(resolvedPath, "utf8");
+    const titleMap: Record<LegalDocKey, string> = {
+      terms: "Terms of Use",
+      privacy: "Privacy Policy",
+      thirdParty: "Third-Party Notices",
+      disclaimer: "Disclaimer"
+    };
+    return {
+      key: docKey,
+      title: titleMap[docKey],
+      content
+    };
   });
   ipcMain.handle("devhub:run-runtime-dll-repair", async (): Promise<RuntimeDllRepairResult> => {
     const currentSettings = settingsStore.get();

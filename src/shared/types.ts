@@ -121,9 +121,55 @@ export interface RuntimeDllRepairResult {
   steps: RuntimeRepairStepResult[];
 }
 
+export interface MonetizationLocalizedText {
+  zh: string;
+  en: string;
+}
+
+export interface MonetizationFeatureFlags {
+  removeAds: boolean;
+  industryPresetPack: "core" | "full";
+  batchRetryAdvanced: boolean;
+  silentInstallBatch: boolean;
+  offlineCachePack: boolean;
+  teamPolicyTemplate: boolean;
+  complianceAuditReport: "basic" | "standard" | "advanced";
+  prioritySupport: boolean;
+}
+
+export interface MonetizationAdSlot {
+  id: string;
+  name: MonetizationLocalizedText;
+  placement: "main-right-column-bottom" | "post-install-footer";
+  maxCards: number;
+  requiresDisclosure: boolean;
+}
+
+export interface MonetizationSponsorCard {
+  id: string;
+  placement: "main-right-column-bottom" | "post-install-footer";
+  title: MonetizationLocalizedText;
+  description: MonetizationLocalizedText;
+  url: string;
+  disclosure: MonetizationLocalizedText;
+}
+
+export interface MonetizationResolvedPlan {
+  id: string;
+  name: MonetizationLocalizedText;
+  entitlementTier: string;
+  adsEnabled: boolean;
+  isPaid: boolean;
+}
+
 export interface MonetizationConfig {
   buyMeACoffeeUrl: string;
   enableBuyMeACoffee: boolean;
+  activePlanId: string;
+  resolvedPlan: MonetizationResolvedPlan;
+  features: MonetizationFeatureFlags;
+  adSlots: MonetizationAdSlot[];
+  sponsorCards: MonetizationSponsorCard[];
 }
 
 export interface ComplianceConfig {
@@ -136,6 +182,14 @@ export interface ComplianceConfig {
     thirdParty: string;
     disclaimer: string;
   };
+}
+
+export type LegalDocKey = "terms" | "privacy" | "thirdParty" | "disclaimer";
+
+export interface LegalDocContent {
+  key: LegalDocKey;
+  title: string;
+  content: string;
 }
 
 export interface DevHubApi {
@@ -153,6 +207,6 @@ export interface DevHubApi {
   runPostConfig: (options: PostConfigOptions) => Promise<PostConfigResult>;
   runRuntimeDllRepair: () => Promise<RuntimeDllRepairResult>;
   openExternal: (url: string) => Promise<void>;
-  openLegalDoc: (docKey: "terms" | "privacy" | "thirdParty" | "disclaimer") => Promise<void>;
+  getLegalDoc: (docKey: LegalDocKey) => Promise<LegalDocContent>;
   onInstallEvent: (callback: (event: InstallEvent) => void) => () => void;
 }

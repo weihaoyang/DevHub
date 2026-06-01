@@ -49,33 +49,22 @@ export function ProgressPanel({ language, catalog, events }: Props) {
 
   return (
     <section className="card progress-panel">
-      <h2>{translate(language, "panel.progress")}</h2>
-      <div className="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>{translate(language, "table.software")}</th>
-              <th>{translate(language, "table.status")}</th>
-              <th>{translate(language, "table.message")}</th>
-              <th>{translate(language, "table.time")}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.length === 0 && (
-              <tr>
-                <td colSpan={4}>{translate(language, "common.none")}</td>
-              </tr>
-            )}
-            {rows.map((row) => (
-              <tr key={row.itemId}>
-                <td>{row.name}</td>
-                <td>{translate(language, `status.${row.status}`)}</td>
-                <td>{row.message}</td>
-                <td>{new Date(row.timestamp).toLocaleTimeString()}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className="card-title-row">
+        <h2>{translate(language, "panel.progress")}</h2>
+        <span className="muted">{rows.length}</span>
+      </div>
+      <div className="progress-list">
+        {rows.length === 0 && <div className="progress-empty">{translate(language, "common.none")}</div>}
+        {rows.map((row) => (
+          <div key={row.itemId} className="progress-item">
+            <div className="progress-item-top">
+              <strong>{row.name}</strong>
+              <span className={`status-pill status-${row.status}`}>{translate(language, `status.${row.status}`)}</span>
+            </div>
+            <div className="progress-item-message">{row.message}</div>
+            <div className="progress-item-time">{new Date(row.timestamp).toLocaleTimeString()}</div>
+          </div>
+        ))}
       </div>
     </section>
   );
